@@ -897,6 +897,20 @@
         "book"
       ],
       "blurb": "Mind-boggling integration of text and images (from 1847): <i>\"We do not introduce colours for the purpose of entertainment... but to assist the mind in its researches after truth.\"</i>\n"
+    },
+    {
+      "title": "Gerrymandering, explained",
+      "authors": [
+        "Stephen Nass",
+        "Christopher Ingraham"
+      ],
+      "stars": 0,
+      "linkUrl": "http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/01/this-is-the-best-explanation-of-gerrymandering-you-will-ever-see/",
+      "imgUrl": "img/gerrymandering.png",
+      "imgFit": "cover",
+      "tags": [
+        "society"
+      ]
     }
   ],
   "tagGroups": [
