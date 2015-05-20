@@ -396,7 +396,7 @@ var About = React.createClass({
             React.createElement(
               'small',
               null,
-              '(including: Toby Schachman, Michael Nagle)'
+              '(including: Toby Schachman, Michael Nagle, James Scott-Brown)'
             ),
             ','
           ),

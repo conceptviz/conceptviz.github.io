@@ -912,6 +912,25 @@
       "tags": [
         "society"
       ]
+    },
+    {
+      "title": "Dynamics: The Geometry of Behavior",
+      "authors": [
+        "Ralph Abraham",
+        "Christopher Shaw"
+      ],
+      "stars": 0,
+      "linkUrl": "http://www.aerialpress.com/DYN/",
+      "imgUrl": "img/dynamicsgeometrybehavior.png",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "math.geometry",
+        "science.physics",
+        "science.life",
+        "book"
+      ],
+      "blurb": "<a href=\"http://hobbieroth.blogspot.com/2012/12/dynamics-geometry-of-behavior.html\">(Descriptive blog post)</a>\n"
     }
   ],
   "tagGroups": [
