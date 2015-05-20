@@ -772,12 +772,13 @@
         "Scott McCloud"
       ],
       "stars": 1,
-      "linkUrl": "https://www.youtube.com/watch?v=f5liqUk0ZTw",
+      "linkUrl": "http://scottmccloud.com/2-print/1-uc/",
       "imgUrl": "img/understanding-comics.png",
       "imgFit": "contain",
       "tags": [
         "meta",
-        "art"
+        "art",
+        "book"
       ],
       "blurb": "\"The pedagogical potential of the comic form is vast and mostly untapped\" (Bret Victor)\n"
     },
@@ -984,12 +985,7 @@
           "name": "story"
         },
         {
-          "name": "book",
-          "children": [
-            {
-              "name": "free"
-            }
-          ]
+          "name": "book"
         },
         {
           "name": "physical"
