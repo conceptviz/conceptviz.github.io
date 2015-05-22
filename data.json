@@ -932,6 +932,20 @@
         "book"
       ],
       "blurb": "<a href=\"http://hobbieroth.blogspot.com/2012/12/dynamics-geometry-of-behavior.html\">(Descriptive blog post)</a>\n"
+    },
+    {
+      "title": "To Dissect a Mockingbird: A Graphical Notation for the Lambda Calculus with Animated Reduction",
+      "authors": [
+        "David C. Keenan"
+      ],
+      "linkUrl": "http://www.cs.virginia.edu/~cs655/readings/mockingbird.html",
+      "imgUrl": "img/dissect-mockingbird.png",
+      "imgFit": "contain",
+      "tags": [
+        "math",
+        "cs"
+      ],
+      "blurb": "<i>\"This paper provides an informal and entertaining introduction [to the lambda calculus] by means of an animated graphical notation.\"</i>\n"
     }
   ],
   "tagGroups": [
