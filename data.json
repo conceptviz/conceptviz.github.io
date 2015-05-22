@@ -527,7 +527,8 @@
         "animation",
         "interaction"
       ],
-      "stars": 0
+      "stars": 0,
+      "blurb": "<i>\"A visual introduction to digital signal processing and the discrete Fourier transform.\"</i>\n"
     },
     {
       "title": "Visualizing matrix multiplication as a linear combination",
