@@ -946,6 +946,20 @@
         "cs"
       ],
       "blurb": "<i>\"This paper provides an informal and entertaining introduction [to the lambda calculus] by means of an animated graphical notation.\"</i>\n"
+    },
+    {
+      "title": "Reinventing Explanation",
+      "authors": [
+        "Michael Nielsen"
+      ],
+      "stars": 0,
+      "linkUrl": "http://michaelnielsen.org/reinventing_explanation/index.html",
+      "imgUrl": "img/babylonian_map.jpg",
+      "imgFit": "cover",
+      "tags": [
+        "meta"
+      ],
+      "blurb": "Designing media to explain scientific ideas, using Simpson's paradox as a test case."
     }
   ],
   "tagGroups": [
