@@ -960,6 +960,20 @@
         "meta"
       ],
       "blurb": "Designing media to explain scientific ideas, using Simpson's paradox as a test case."
+    },
+    {
+      "title": "Kindergarten Quantum Mechanics",
+      "authors": [
+        "Bob Coecke"
+      ],
+      "stars": 0,
+      "linkUrl": "http://arxiv.org/pdf/quant-ph/0510032.pdf",
+      "imgUrl": "img/kindergarten_quantum_mechanics.png",
+      "imgFit": "cover",
+      "tags": [
+        "science.physics"
+      ],
+      "blurb": "<i>'Doing quantum mechanics using only pictures of lines, squares, triangles and diamonds'</i>"
     }
   ],
   "tagGroups": [
