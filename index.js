@@ -392,11 +392,11 @@ var About = React.createClass({
           React.createElement(
             'li',
             null,
-            'everyone who pointed me to things on this list ',
+            'everyone who pointed me to things on this list',
             React.createElement(
               'small',
               null,
-              '(including: Toby Schachman, Michael Nagle, James Scott-Brown, James Junghanns)'
+              '(including: Toby Schachman, Michael Nagle, James Scott-Brown, James Junghanns, Donny Winston)'
             ),
             ','
           ),

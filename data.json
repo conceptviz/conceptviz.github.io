@@ -345,7 +345,7 @@
         "George K. Francis"
       ],
       "linkUrl": "http://www.amazon.com/Topological-Picturebook-George-K-Francis/dp/0387345426",
-      "imgUrl": "img/topological-picturebook.png",
+      "imgUrl": "img/topological-picturebook.jpg",
       "imgFit": "cover",
       "tags": [
         "math",
@@ -492,7 +492,7 @@
         "katja"
       ],
       "linkUrl": "http://www.katjaas.nl/home/home.html",
-      "imgUrl": "img/katja.png",
+      "imgUrl": "img/katja.jpg",
       "imgFit": "cover",
       "tags": [
         "math",
@@ -746,7 +746,7 @@
         "Ray Eames"
       ],
       "linkUrl": null,
-      "imgUrl": "img/something-about-functions.png",
+      "imgUrl": "img/something-about-functions.jpg",
       "imgFit": "cover",
       "tags": [
         "math",
@@ -774,7 +774,7 @@
       ],
       "stars": 1,
       "linkUrl": "http://scottmccloud.com/2-print/1-uc/",
-      "imgUrl": "img/understanding-comics.png",
+      "imgUrl": "img/understanding-comics.jpg",
       "imgFit": "contain",
       "tags": [
         "meta",
@@ -922,7 +922,7 @@
       ],
       "stars": 0,
       "linkUrl": "http://www.aerialpress.com/DYN/",
-      "imgUrl": "img/dynamicsgeometrybehavior.png",
+      "imgUrl": "img/dynamics-geometry-behavior.jpg",
       "imgFit": "cover",
       "tags": [
         "math",
@@ -931,7 +931,7 @@
         "science.life",
         "book"
       ],
-      "blurb": "<a href=\"http://hobbieroth.blogspot.com/2012/12/dynamics-geometry-of-behavior.html\">(Descriptive blog post)</a>\n"
+      "blurb": "<a href=\"http://hobbieroth.blogspot.com/2012/12/dynamics-geometry-of-behavior.html\">Descriptive blog post.</a>\n"
     },
     {
       "title": "To Dissect a Mockingbird: A Graphical Notation for the Lambda Calculus with Animated Reduction",
@@ -946,6 +946,79 @@
         "cs"
       ],
       "blurb": "<i>\"This paper provides an informal and entertaining introduction [to the lambda calculus] by means of an animated graphical notation.\"</i>\n"
+    },
+    {
+      "title": "Materials stability & Nature's bike shop",
+      "authors": [
+        "Anubhav Jain"
+      ],
+      "linkUrl": "http://hackingmaterials.com/2014/05/08/pdcomic/",
+      "imgUrl": "img/materials-stability.png",
+      "imgFit": "cover",
+      "tags": [
+        "science.physics"
+      ],
+      "blurb": "<i>\"A comics guide to predicting new materials.\"</i>\n"
+    },
+    {
+      "title": "Beauty of Mathematics",
+      "authors": [
+        "Yann Pineill",
+        "Nicolas Lefaucheux"
+      ],
+      "linkUrl": "https://vimeo.com/77330591",
+      "imgUrl": "img/beauty-of-mathematics.jpg",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "math.discrete",
+        "math.geometry",
+        "math.prob+stats",
+        "science.physics",
+        "animation"
+      ],
+      "blurb": "(Not so much <i>explanation</i>, but it's pretty.)"
+    },
+    {
+      "title": "The Bitcoin Protocol",
+      "authors": [
+        "Brian Clifton"
+      ],
+      "linkUrl": "http://www.briancliftonstudio.com/the-bitcoin-protocol/",
+      "imgUrl": "img/bitcoin-protocol.png",
+      "imgFit": "cover",
+      "tags": [
+        "cs.systems"
+      ]
+    },
+    {
+      "title": "STEMblab",
+      "authors": [
+        "Gary Ballantyne"
+      ],
+      "linkUrl": "http://stemblab.github.io/",
+      "imgUrl": "img/stemblab.png",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "cs",
+        "science.physics",
+        "science.life"
+      ],
+      "blurb": "<i>\"Science, Technology, Engineering, Mathematics Web Laboratory\"</i> &mdash; tutorials with editable code, powered by <a href=\"http://puzlet.org/\">Puzlet</a>.\n"
+    },
+    {
+      "title": "James Maxwell, Working in Wet Clay",
+      "authors": [
+        "Thomas West"
+      ],
+      "linkUrl": "http://www.siggraph.org/publications/newsletter/v33n1/columns/west.html",
+      "imgUrl": "img/maxwell.jpg",
+      "imgFit": "cover",
+      "tags": [
+        "meta"
+      ],
+      "blurb": "<i>\"&hellip;he knew if he could find a way to 'visualize the shape,' then he could begin to really 'understand' the vast complexity of the system.\"</i> <p>See also: <a href=\"http://en.wikipedia.org/wiki/Maxwell%27s_thermodynamic_surface\">Maxwell's thermodynamic surface &mdash; Wikipedia</a> (origin of the banner image); <a href=\"http://www.sv.vt.edu/classes/ESM4714/methods/Gibbs.html\">Gibbs' Thermodynamic Graphical Method</a></li>.\n"
     }
   ],
   "tagGroups": [
