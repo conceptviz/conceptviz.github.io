@@ -1019,6 +1019,19 @@
         "meta"
       ],
       "blurb": "<i>\"&hellip;he knew if he could find a way to 'visualize the shape,' then he could begin to really 'understand' the vast complexity of the system.\"</i> <p>See also: <a href=\"http://en.wikipedia.org/wiki/Maxwell%27s_thermodynamic_surface\">Maxwell's thermodynamic surface &mdash; Wikipedia</a> (origin of the banner image); <a href=\"http://www.sv.vt.edu/classes/ESM4714/methods/Gibbs.html\">Gibbs' Thermodynamic Graphical Method</a></li>.\n"
+    },
+    {
+      "title": "PathFinding.js Demo",
+      "authors": [
+        "Xueqiao Xu"
+      ],
+      "linkUrl": "http://qiao.github.io/PathFinding.js/visual/",
+      "imgUrl": "img/pathfinding-js.png",
+      "imgFit": "cover",
+      "tags": [
+        "cs.algorithms",
+        "interaction"
+      ]
     }
   ],
   "tagGroups": [
