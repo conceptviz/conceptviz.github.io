@@ -1040,7 +1040,7 @@
       ],
       "stars": 0,
       "linkUrl": "http://michaelnielsen.org/reinventing_explanation/index.html",
-      "imgUrl": "img/babylonian_map.jpg",
+      "imgUrl": "img/babylonian-map.jpg",
       "imgFit": "cover",
       "tags": [
         "meta"
@@ -1054,12 +1054,12 @@
       ],
       "stars": 0,
       "linkUrl": "http://arxiv.org/pdf/quant-ph/0510032.pdf",
-      "imgUrl": "img/kindergarten_quantum_mechanics.png",
+      "imgUrl": "img/kindergarten-quantum-mechanics.png",
       "imgFit": "cover",
       "tags": [
         "science.physics"
       ],
-      "blurb": "<i>\"doing quantum mechanics using only pictures of lines, squares, triangles and diamonds\"</i>"
+      "blurb": "<i>\"doing quantum mechanics using only pictures of lines, squares, triangles and diamonds\"</i>\n"
     }
   ],
   "tagGroups": [

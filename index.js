@@ -392,7 +392,8 @@ var About = React.createClass({
           React.createElement(
             'li',
             null,
-            'everyone who pointed me to things on this list ',
+            'everyone who pointed me to things on this list',
+            ' ',
             React.createElement(
               'small',
               null,
