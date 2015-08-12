@@ -160,7 +160,8 @@
       "tags": [
         "cs.programming"
       ],
-      "stars": 0
+      "stars": 0,
+      "blurb": "See also: Bhargava's book <a href=\"http://manning.com/bhargava/\">Grokking Algorithms</a>.\n"
     },
     {
       "title": "Scientific Communication as Sequential Art",
@@ -1060,6 +1061,97 @@
         "science.physics"
       ],
       "blurb": "<i>\"doing quantum mechanics using only pictures of lines, squares, triangles and diamonds\"</i>\n"
+    },
+    {
+      "title": "How a Kalman filter works, in pictures",
+      "authors": [
+        "Tim Babb"
+      ],
+      "linkUrl": "http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/",
+      "imgUrl": "img/kalman.png",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "cs"
+      ],
+      "blurb": "Also pretty nice: <a href=\"http://www.bzarg.com/p/3d-rotational-dynamics-1-the-basics/\">3D Rotational Dynamics 1: The Basics</a>.\n"
+    },
+    {
+      "title": "Visualizing Rust's type-system",
+      "authors": [
+        "Jessy Pelletier"
+      ],
+      "linkUrl": "http://jadpole.github.io/rust/type-system/",
+      "imgUrl": "img/rust.png",
+      "imgFit": "contain",
+      "tags": [
+        "cs.programming"
+      ]
+    },
+    {
+      "title": "A Visual Introduction to Machine Learning",
+      "authors": [
+        "Stephanie Yee",
+        "Tony Chu"
+      ],
+      "linkUrl": "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/",
+      "imgUrl": "img/visual-intro-to-machine-learning.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.prob+stats",
+        "cs"
+      ],
+      "stars": 1
+    },
+    {
+      "title": "List of Physical Visualizations and Related Artifacts",
+      "authors": [
+        "Pierre Dragicevic",
+        "Yvonne Jansen",
+        "many others"
+      ],
+      "linkUrl": "http://dataphys.org/list/",
+      "imgUrl": "img/physical-visualizations.png",
+      "imgFit": "cover",
+      "tags": [
+        "physical",
+        "meta",
+        "society",
+        "science.life",
+        "science.physics"
+      ]
+    },
+    {
+      "title": "How DNS works",
+      "authors": [
+        "dnsimple",
+        "???"
+      ],
+      "linkUrl": "https://howdns.works/",
+      "imgUrl": "img/how-dns-works.png",
+      "imgFit": "contain",
+      "tags": [
+        "story",
+        "cs.systems"
+      ]
+    },
+    {
+      "title": "Envisioning Information",
+      "authors": [
+        "Edward Tufte"
+      ],
+      "linkUrl": "http://www.edwardtufte.com/tufte/books_ei",
+      "imgUrl": "img/envisioning-information.png",
+      "imgFit": "contain",
+      "tags": [
+        "math",
+        "science",
+        "society",
+        "art",
+        "meta",
+        "book"
+      ],
+      "stars": 1
     }
   ],
   "tagGroups": [

@@ -369,7 +369,7 @@ var About = React.createClass({
           null,
           'Gallery of Concept Visualization'
         ),
-        ' features projects which use pictures to communicate complex and difficult ideas (not just data).'
+        ' features projects which use pictures to communicate complex and difficult ideas, the same way data visualizations use pictures to make sense of data.'
       ),
       React.createElement(
         'p',
