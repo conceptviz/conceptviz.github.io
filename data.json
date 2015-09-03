@@ -1152,6 +1152,50 @@
         "book"
       ],
       "stars": 1
+    },
+    {
+      "title": "Who’ll Freeze First? A Puzzle About Size and Staying Warm",
+      "authors": [
+        "Robert Krulwich",
+        "Aatish Bhatia"
+      ],
+      "linkUrl": "http://noticing.co/",
+      "imgUrl": "img/noticing.png",
+      "imgFit": "contain",
+      "tags": [
+        "interaction",
+        "math",
+        "science.life",
+        "science.physics"
+      ]
+    },
+    {
+      "title": "The Way Things Work",
+      "authors": [
+        "David Macaulay"
+      ],
+      "linkUrl": null,
+      "imgUrl": "img/the-way-things-work.png",
+      "imgFit": "cover",
+      "tags": [
+        "book",
+        "science",
+        "society"
+      ]
+    },
+    {
+      "title": "Interpreting Confidence Intervals",
+      "authors": [
+        "Kristoffer Magnusson"
+      ],
+      "linkUrl": "http://rpsychologist.com/d3/CI/",
+      "imgUrl": "img/interpreting-confidence-intervals.png",
+      "imgFit": "contain",
+      "tags": [
+        "interaction",
+        "math.prob+stats"
+      ],
+      "blurb": "See also: <a href=\"http://rpsychologist.com/d3/correlation/\">Interpreting Correlations</a> & others.\n"
     }
   ],
   "tagGroups": [
