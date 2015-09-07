@@ -678,7 +678,7 @@
       "blurb": "Part essay, part specialized visual calculator."
     },
     {
-      "title": "Melkman's Algorithm",
+      "title": "Melkman's Algorithm Visualized",
       "authors": [
         "Max Goldstein"
       ],
@@ -687,8 +687,24 @@
       "imgFit": "cover",
       "tags": [
         "math.geometry",
-        "cs.algorithms"
-      ]
+        "cs.algorithms",
+        "interaction"
+      ],
+      "blurb": "<i>\"If you wrapped a rubber band around a polygon and let it snap tight, you'd have the convex hull, which is one of the foundations of computational geometry.\"</i>"
+    },
+    {
+      "title": "Invitation to Another Dimension",
+      "authors": [
+        "Max Goldstein"
+      ],
+      "linkUrl": "http://maxgoldste.in/invitation-to-another-dimension/",
+      "imgUrl": "img/invitation-to-another-dimension.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.linearAlgebra",
+        "interaction"
+      ],
+      "blurb": "<i>\"Mathematics has structure, ideas that start simple and then are extended and combined&hellip; As we explore these ideas, we'll come across many ways of seeing, writing, and interacting.\"</i>"
     },
     {
       "title": "How to integrate text and images interactively",
