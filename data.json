@@ -14,7 +14,8 @@
         "interaction.game",
         "story"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "<i>\"This is a story of how harmless choices can make a harmful world.\"</i>"
     },
     {
       "title": "algovis",
@@ -177,7 +178,7 @@
         "math.discrete"
       ],
       "stars": 1,
-      "blurb": "<i>'&hellip;\"comic-style\" needn't mean characters, dialog, word balloons, or sound effects&hellip; The comic form is about sequences of tightly-integrated words and pictures, together conveying a message more powerfully than the sum of their parts.'</i>\n"
+      "blurb": "<i>\"&hellip;'comic-style' needn't mean characters, dialog, word balloons, or sound effects&hellip; The comic form is about sequences of tightly-integrated words and pictures, together conveying a message more powerfully than the sum of their parts.\"</i>\n"
     },
     {
       "title": "Setosa (& Explained Visually)",
@@ -194,7 +195,8 @@
         "math.geometry",
         "interaction"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "<i>\"An experiment in making hard ideas intuitive.\"</i>"
     },
     {
       "title": "Media for Thinking the Unthinkable",
@@ -222,7 +224,9 @@
         "meta",
         "interaction"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "<i>\"A Systematic Approach to Interactive Visualization\"</i>"
+
     },
     {
       "title": "How to Fold a Julia Fractal",
@@ -237,7 +241,7 @@
         "interaction"
       ],
       "stars": 1,
-      "blurb": "Brilliant use of animation to show complex mathematical processes geometrically. Shows off Wittens' <a href=\"http://acko.net/blog/making-mathbox/\">MathBox</a> library.\n"
+      "blurb": "Brilliant use of animation to show complex mathematical processes geometrically. Shows off Wittens' <a href=\"http://acko.net/blog/making-mathbox/\">MathBox</a> library. See also <a href=\"http://acko.net/blog/to-infinity-and-beyond/\">To Infinity&hellip; And Beyond!</a> and <a href=\"http://acko.net/blog/animate-your-way-to-glory/\">Animate Your Way to Glory</a>."
     },
     {
       "title": "Better Explained",
@@ -251,7 +255,8 @@
         "math.geometry",
         "interaction"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "<i>\"A frustrating class had me looking for better explanations, and I share what helped the most.\"</i>"
     },
     {
       "title": "Explorable Explanations",
@@ -276,7 +281,7 @@
       "imgUrl": "img/matrix.png",
       "imgFit": "cover",
       "tags": [
-        "math",
+        "math.linearAlgebra",
         "interaction"
       ]
     },
@@ -539,7 +544,7 @@
       "linkUrl": "http://eli.thegreenplace.net/2015/visualizing-matrix-multiplication-as-a-linear-combination/",
       "imgUrl": "img/matrix-multiplication.png",
       "tags": [
-        "math"
+        "math.linearAlgebra"
       ]
     },
     {
@@ -653,7 +658,8 @@
         "cs.algorithms",
         "meta"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "<i>\"To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior.\"</i>"
     },
     {
       "title": "Simpson's Paradox",
@@ -668,10 +674,11 @@
         "math.prob+stats",
         "interaction"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "Part essay, part specialized visual calculator."
     },
     {
-      "title": "Melkman's Algorithm",
+      "title": "Melkman's Algorithm Visualized",
       "authors": [
         "Max Goldstein"
       ],
@@ -680,8 +687,24 @@
       "imgFit": "cover",
       "tags": [
         "math.geometry",
-        "cs.algorithms"
-      ]
+        "cs.algorithms",
+        "interaction"
+      ],
+      "blurb": "<i>\"If you wrapped a rubber band around a polygon and let it snap tight, you'd have the convex hull, which is one of the foundations of computational geometry.\"</i>"
+    },
+    {
+      "title": "Invitation to Another Dimension",
+      "authors": [
+        "Max Goldstein"
+      ],
+      "linkUrl": "http://maxgoldste.in/invitation-to-another-dimension/",
+      "imgUrl": "img/invitation-to-another-dimension.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.linearAlgebra",
+        "interaction"
+      ],
+      "blurb": "<i>\"Mathematics has structure, ideas that start simple and then are extended and combined&hellip; As we explore these ideas, we'll come across many ways of seeing, writing, and interacting.\"</i>"
     },
     {
       "title": "How to integrate text and images interactively",
@@ -765,7 +788,7 @@
       "imgUrl": "img/whats-a-tensor.jpg",
       "imgFit": "cover",
       "tags": [
-        "math"
+        "math.linearAlgebra", "physical"
       ]
     },
     {
@@ -782,7 +805,7 @@
         "art",
         "book"
       ],
-      "blurb": "\"The pedagogical potential of the comic form is vast and mostly untapped\" (Bret Victor)\n"
+      "blurb": "<i>\"The pedagogical potential of the comic form is vast and mostly untapped\"</i> &#8212;Bret Victor"
     },
     {
       "title": "Mathematica: A World Of Numbers ... And Beyond",
@@ -882,9 +905,10 @@
       "imgFit": "cover",
       "tags": [
         "math.geometry",
-        "interaction",
-        "cs.programming"
-      ]
+        "cs.programming",
+        "interaction"
+      ],
+      "blurb": "<i>\"...an exploration of user interface ideas towards the development of a spatially-oriented programming environment.\"</i>"
     },
     {
       "title": "The First Six Books Of The Elements Of Euclid",
@@ -1017,7 +1041,7 @@
       "imgUrl": "img/maxwell.jpg",
       "imgFit": "cover",
       "tags": [
-        "meta"
+        "physical", "meta"
       ],
       "blurb": "<i>\"&hellip;he knew if he could find a way to 'visualize the shape,' then he could begin to really 'understand' the vast complexity of the system.\"</i> <p>See also: <a href=\"http://en.wikipedia.org/wiki/Maxwell%27s_thermodynamic_surface\">Maxwell's thermodynamic surface &mdash; Wikipedia</a> (origin of the banner image); <a href=\"http://www.sv.vt.edu/classes/ESM4714/methods/Gibbs.html\">Gibbs' Thermodynamic Graphical Method</a></li>.\n"
     },
@@ -1101,7 +1125,8 @@
         "math.prob+stats",
         "cs"
       ],
-      "stars": 1
+      "stars": 1,
+      "blurb": "A continuously scrolling and animated essay about building decision trees."
     },
     {
       "title": "List of Physical Visualizations and Related Artifacts",
@@ -1163,10 +1188,10 @@
       "imgUrl": "img/noticing.png",
       "imgFit": "contain",
       "tags": [
-        "interaction",
         "math",
         "science.life",
-        "science.physics"
+        "science.physics",
+        "interaction"
       ]
     },
     {
@@ -1192,8 +1217,8 @@
       "imgUrl": "img/interpreting-confidence-intervals.png",
       "imgFit": "contain",
       "tags": [
-        "interaction",
-        "math.prob+stats"
+        "math.prob+stats",
+        "interaction"
       ],
       "blurb": "See also: <a href=\"http://rpsychologist.com/d3/correlation/\">Interpreting Correlations</a> & others.\n"
     }
@@ -1211,6 +1236,9 @@
             },
             {
               "name": "geometry"
+            },
+            {
+              "name": "linearAlgebra"
             },
             {
               "name": "prob+stats"
