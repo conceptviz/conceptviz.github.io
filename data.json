@@ -15,7 +15,7 @@
         "story"
       ],
       "stars": 1,
-      "blurb": "<i>\"This is a story of how harmless choices can make a harmful world.\"</i>"
+      "blurb": "<i>\"This is a story of how harmless choices can make a harmful world.\"</i>\n"
     },
     {
       "title": "algovis",
@@ -196,7 +196,7 @@
         "interaction"
       ],
       "stars": 1,
-      "blurb": "<i>\"An experiment in making hard ideas intuitive.\"</i>"
+      "blurb": "<i>\"An experiment in making hard ideas intuitive.\"</i>\n"
     },
     {
       "title": "Media for Thinking the Unthinkable",
@@ -225,8 +225,7 @@
         "interaction"
       ],
       "stars": 1,
-      "blurb": "<i>\"A Systematic Approach to Interactive Visualization\"</i>"
-
+      "blurb": "<i>\"A Systematic Approach to Interactive Visualization\"</i>\n"
     },
     {
       "title": "How to Fold a Julia Fractal",
@@ -241,7 +240,7 @@
         "interaction"
       ],
       "stars": 1,
-      "blurb": "Brilliant use of animation to show complex mathematical processes geometrically. Shows off Wittens' <a href=\"http://acko.net/blog/making-mathbox/\">MathBox</a> library. See also <a href=\"http://acko.net/blog/to-infinity-and-beyond/\">To Infinity&hellip; And Beyond!</a> and <a href=\"http://acko.net/blog/animate-your-way-to-glory/\">Animate Your Way to Glory</a>."
+      "blurb": "Brilliant use of animation to show complex mathematical processes geometrically. Shows off Wittens' <a href=\"http://acko.net/blog/making-mathbox/\">MathBox</a> library. See also: <a href=\"http://acko.net/blog/to-infinity-and-beyond/\">To Infinity&hellip; And Beyond!</a>, <a href=\"http://acko.net/blog/animate-your-way-to-glory/\">Animate Your Way to Glory</a>.\n"
     },
     {
       "title": "Better Explained",
@@ -256,7 +255,7 @@
         "interaction"
       ],
       "stars": 1,
-      "blurb": "<i>\"A frustrating class had me looking for better explanations, and I share what helped the most.\"</i>"
+      "blurb": "<i>\"A frustrating class had me looking for better explanations, and I share what helped the most.\"</i>\n"
     },
     {
       "title": "Explorable Explanations",
@@ -659,7 +658,7 @@
         "meta"
       ],
       "stars": 1,
-      "blurb": "<i>\"To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior.\"</i>"
+      "blurb": "<i>\"To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior.\"</i>\n"
     },
     {
       "title": "Simpson's Paradox",
@@ -690,7 +689,7 @@
         "cs.algorithms",
         "interaction"
       ],
-      "blurb": "<i>\"If you wrapped a rubber band around a polygon and let it snap tight, you'd have the convex hull, which is one of the foundations of computational geometry.\"</i>"
+      "blurb": "<i>\"If you wrapped a rubber band around a polygon and let it snap tight, you'd have the convex hull, which is one of the foundations of computational geometry.\"</i>\n"
     },
     {
       "title": "Invitation to Another Dimension",
@@ -704,7 +703,7 @@
         "math.linearAlgebra",
         "interaction"
       ],
-      "blurb": "<i>\"Mathematics has structure, ideas that start simple and then are extended and combined&hellip; As we explore these ideas, we'll come across many ways of seeing, writing, and interacting.\"</i>"
+      "blurb": "<i>\"Mathematics has structure, ideas that start simple and then are extended and combined&hellip; As we explore these ideas, we'll come across many ways of seeing, writing, and interacting.\"</i>\n"
     },
     {
       "title": "How to integrate text and images interactively",
@@ -788,7 +787,8 @@
       "imgUrl": "img/whats-a-tensor.jpg",
       "imgFit": "cover",
       "tags": [
-        "math.linearAlgebra", "physical"
+        "math.linearAlgebra",
+        "physical"
       ]
     },
     {
@@ -805,7 +805,7 @@
         "art",
         "book"
       ],
-      "blurb": "<i>\"The pedagogical potential of the comic form is vast and mostly untapped\"</i> &#8212;Bret Victor"
+      "blurb": "<i>\"The pedagogical potential of the comic form is vast and mostly untapped\"</i> &#8212;Bret Victor\n"
     },
     {
       "title": "Mathematica: A World Of Numbers ... And Beyond",
@@ -908,7 +908,7 @@
         "cs.programming",
         "interaction"
       ],
-      "blurb": "<i>\"...an exploration of user interface ideas towards the development of a spatially-oriented programming environment.\"</i>"
+      "blurb": "<i>\"...an exploration of user interface ideas towards the development of a spatially-oriented programming environment.\"</i>\n"
     },
     {
       "title": "The First Six Books Of The Elements Of Euclid",
@@ -1041,7 +1041,8 @@
       "imgUrl": "img/maxwell.jpg",
       "imgFit": "cover",
       "tags": [
-        "physical", "meta"
+        "physical",
+        "meta"
       ],
       "blurb": "<i>\"&hellip;he knew if he could find a way to 'visualize the shape,' then he could begin to really 'understand' the vast complexity of the system.\"</i> <p>See also: <a href=\"http://en.wikipedia.org/wiki/Maxwell%27s_thermodynamic_surface\">Maxwell's thermodynamic surface &mdash; Wikipedia</a> (origin of the banner image); <a href=\"http://www.sv.vt.edu/classes/ESM4714/methods/Gibbs.html\">Gibbs' Thermodynamic Graphical Method</a></li>.\n"
     },
@@ -1126,7 +1127,7 @@
         "cs"
       ],
       "stars": 1,
-      "blurb": "A continuously scrolling and animated essay about building decision trees."
+      "blurb": "A continuously-scrolling animated essay about building decision trees."
     },
     {
       "title": "List of Physical Visualizations and Related Artifacts",

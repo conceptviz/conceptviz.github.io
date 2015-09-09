@@ -1,0 +1,754 @@
+resources:
+
+- title: Parable of the Polygons
+  authors: [Vi Hart, Nicky Case]
+  linkUrl: http://ncase.me/polygons/
+  imgUrl: img/parable-of-the-polygons.png
+  imgFit: cover
+  tags: [society, interaction.game, story]
+  stars: 1
+  blurb: >
+    <i>"This is a story of how harmless choices can make a harmful world."</i>
+
+- title: algovis
+  authors: [Ian Johnson]
+  linkUrl: https://github.com/enjalot/algovis/blob/master/README.md
+  imgUrl: img/algovis.png
+  tags: [meta, cs.algorithms]
+  blurb: >
+    <i>"This is collection of projects and links about algorithm visualization."</i>
+
+- title: Visualising Sorting Algorithms
+  authors: [Aldo Cortesi]
+  linkUrl: http://corte.si/posts/code/visualisingsorting/
+  imgUrl: img/visualising-sorting-algorithms.png
+  imgFit: cover
+  tags: [cs.algorithms]
+
+- title: VisuAlgo
+  authors: [Steven Halim]
+  linkUrl: http://visualgo.net/
+  imgUrl: img/visualgo.png
+  imgFit: cover
+  tags: [cs.algorithms, interaction]
+
+- title: Neural Networks and Deep Learning
+  linkUrl: http://neuralnetworksanddeeplearning.com/index.html
+  imgUrl: img/nielsen.png
+  authors: [Michael Nielsen]
+  tags: [cs.algorithms, math.prob+stats, interaction]
+
+- title: World of Mathematics (Mathigon)
+  authors: [Philipp Lener]
+  linkUrl: http://world.mathigon.org/
+  imgUrl: img/mathigon.png
+  tags: [math, math.geometry, interaction]
+  stars: 1
+
+- title: Visual Complex Analysis
+  imgUrl: img/visual-complex-analysis.png
+  authors: [Tristan Needham]
+  tags: [math, book]
+  stars: 0
+
+- title: Visual Group Theory
+  authors: [Nathan Carter]
+  linkUrl: http://web.bentley.edu/empl/c/ncarter/vgt/
+  imgUrl: img/visual-group-theory.png
+  tags: [math.discrete, book]
+  stars: 0
+
+- title: Tabletop Whale
+  authors: [Eleanor Lutz]
+  linkUrl: http://tabletopwhale.com/index.html
+  imgUrl: img/tabletop-whale.png
+  imgFit: cover
+  tags: [science.life, science, animation]
+  stars: 0
+
+- title: 'Earth: A Primer'
+  authors: [Chaim Gingold]
+  linkUrl: http://www.earthprimer.com/
+  imgUrl: img/earth-primer.png
+  imgFit: cover
+  tags: [science, science.life, interaction.game]
+  stars: 1
+  blurb: >
+    <i>"...a science book for playful people ...defies existing genres, combining aspects of science books, toys, simulations, and games."</i>
+
+- title: Adventures In Galactic Consensus
+  authors: [Stellar]
+  linkUrl: https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/
+  imgUrl: img/stellar.png
+  tags: [cs.systems, story]
+  stars: 0
+
+- title: Functors, Applicatives, And Monads In Pictures
+  authors: [Aditya Bhargava]
+  linkUrl: http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+  imgUrl: img/functors-applicatives-and-monads.png
+  tags: [cs.programming]
+  stars: 0
+  blurb: >
+    See also: Bhargava's book <a href="http://manning.com/bhargava/">Grokking Algorithms</a>.
+
+- title: Scientific Communication as Sequential Art
+  authors: [Bret Victor]
+  linkUrl: http://worrydream.com/ScientificCommunicationAsSequentialArt/
+  imgUrl: img/scientific-communication-as-sequential-art.png
+  imgFit: cover
+  tags: [meta, interaction, math.discrete]
+  stars: 1
+  blurb: >
+    <i>"&hellip;'comic-style' needn't mean characters, dialog, word balloons, or sound effects&hellip;
+    The comic form is about sequences of tightly-integrated words and pictures,
+    together conveying a message more powerfully than the sum of their parts."</i>
+
+- title: Setosa (& Explained Visually)
+  authors: [Victor Powell, Lewis Lehe]
+  linkUrl: http://setosa.io/
+  imgUrl: img/setosa.png
+  imgFit: cover
+  tags: [math, math.prob+stats, math.geometry, interaction]
+  stars: 1
+  blurb: >
+    <i>"An experiment in making hard ideas intuitive."</i>
+
+- title: Media for Thinking the Unthinkable
+  authors: [Bret Victor]
+  linkUrl: http://worrydream.com/MediaForThinkingTheUnthinkable/
+  imgUrl: img/media-for-thinking-the-unthinkable.png
+  imgFit: cover
+  tags: [meta]
+  stars: 1
+  blurb: >
+    <i>"This talk is about a particular kind of media, which is media for thinking in.
+    And it's about a particular kind of thinking, which is understanding systems."</i>
+
+- title: Up and Down the Ladder of Abstraction
+  authors: [Bret Victor]
+  linkUrl: http://worrydream.com/LadderOfAbstraction/
+  imgUrl: img/up-and-down-the-ladder-of-abstraction.png
+  imgFit: cover
+  tags: [meta, interaction]
+  stars: 1
+  blurb: >
+    <i>"A Systematic Approach to Interactive Visualization"</i>
+
+- title: How to Fold a Julia Fractal
+  authors: [Steven Wittens]
+  linkUrl: http://acko.net/blog/how-to-fold-a-julia-fractal/
+  imgUrl: img/fold-julia.png
+  imgFit: cover
+  tags: [math, interaction]
+  stars: 1
+  blurb: >
+    Brilliant use of animation to show complex mathematical processes geometrically.
+    Shows off Wittens' <a href="http://acko.net/blog/making-mathbox/">MathBox</a> library.
+    See also: <a href="http://acko.net/blog/to-infinity-and-beyond/">To Infinity&hellip; And Beyond!</a>,
+    <a href="http://acko.net/blog/animate-your-way-to-glory/">Animate Your Way to Glory</a>.
+
+- title: Better Explained
+  authors: [Kalid Azad]
+  linkUrl: http://betterexplained.com/
+  imgUrl: img/better-explained.png
+  tags: [math, math.geometry, interaction]
+  stars: 1
+  blurb: >
+    <i>"A frustrating class had me looking for better explanations, and I share what helped the most."</i>
+
+- title: Explorable Explanations
+  authors: [Bret Victor]
+  linkUrl: http://worrydream.com/ExplorableExplanations/
+  imgUrl: img/explorable-explanations.png
+  tags: [meta, interaction]
+  stars: 1
+  blurb: >
+    <i>"People currently think of text as information to be consumed.
+    I want text to be used as an environment to think in."</i>
+
+- title: matrix
+  authors: [Nicky Case]
+  linkUrl: http://ncase.me/matrix/
+  imgUrl: img/matrix.png
+  imgFit: cover
+  tags: [math.linearAlgebra, interaction]
+
+- title: Red Blob Games
+  authors: [Amit Patel]
+  linkUrl: http://www.redblobgames.com/
+  imgUrl: img/red-blob-games.png
+  imgFit: cover
+  tags: [cs.algorithms, math.geometry, math.discrete, math.prob+stats, interaction]
+  blurb: >
+    <i>"I explore visual and interactive ways of explaining math and computer algorithms, especially those used in computer games."</i>
+  stars: 1
+
+- title: Sight & Light
+  authors: [Nicky Case]
+  linkUrl: http://ncase.me/sight-and-light/
+  imgUrl: img/sight-and-light.png
+  imgFit: cover
+  tags: [cs.algorithms, math.geometry, interaction]
+
+- title: Quantum Made Simple
+  authors: [Physics Reimagined]
+  linkUrl: http://toutestquantique.fr/en/
+  imgUrl: img/quantum-made-simple.png
+  imgFit: cover
+  tags: [science.physics, animation]
+
+- title: 'The Visualization of Mathematics: Towards a Mathematical Exploratorium'
+  authors: [Richard S. Palais]
+  linkUrl: http://www.ams.org/notices/199906/fea-palais.pdf
+  imgUrl: img/visualization-of-mathematics.png
+  imgFit: cover
+  tags: [math, math.geometry, meta]
+  blurb: >
+    <i>"It Is Important to Visualize Processes As Well As Objects"</i>
+
+- title: A Topological Picturebook
+  authors: [George K. Francis]
+  linkUrl: http://www.amazon.com/Topological-Picturebook-George-K-Francis/dp/0387345426
+  imgUrl: img/topological-picturebook.jpg
+  imgFit: cover
+  tags: [math, math.geometry, book]
+  stars: 0
+
+- title: The Shape Of Space
+  authors: [Jeffrey R. Weeks]
+  linkUrl: http://www.amazon.com/Shape-Space-Chapman-Applied-Mathematics/dp/0824707095
+  imgUrl: img/shape-of-space.png
+  imgFit: contain
+  tags: [math, math.geometry, book]
+
+- title: Explorable Explanations Hub
+  authors: [Nicky Case]
+  linkUrl: http://explorableexplanations.com/
+  imgUrl: img/explorable-explanations-hub.png
+  tags: [meta]
+  blurb: >
+    See also: Case's <a href="http://blog.ncase.me/explorable-explanations/">blog post on exporable-explanation design patterns</a>.
+
+- title: A Digital Media Primer For Geeks
+  authors: [Christopher (Monty) Montgomery, the Xiph.Org Community]
+  linkUrl: http://xiph.org/video/vid1.shtml
+  imgUrl: img/digital-media-primer.png
+  imgFit: cover
+  tags: [cs]
+
+- title: Corkami
+  authors: [Ange Albertini]
+  linkUrl: https://github.com/corkami/pics
+  imgUrl: img/corkami.png
+  imgFit: cover
+  tags: [cs.systems]
+  blurb: >
+    <i>"Reverse engineering & visual documentations"</i>
+
+- title: Putting Holes in Holey Geometry
+  authors: [Gilbert Louis Bernstein, Chris Wojtan]
+  linkUrl: http://www.gilbertbernstein.com/resources/toptop2013.pdf
+  imgUrl: img/putting-holes-in-holey-geometry.png
+  imgFit: cover
+  tags: [cs, math.geometry]
+  blurb: >
+    Academic paper which uses low-key mini-comics to illustrate and compare approaches to a problem.
+
+- title: Relativity Visualized
+  authors: [Lewis Carroll Epstein]
+  linkUrl: http://www.amazon.com/Relativity-Visualized-Lewis-Carroll-Epstein/dp/093521805X
+  imgUrl: img/relativity-visualized.png
+  imgFit: cover
+  tags: [science.physics, book]
+
+- title: Picturing To Learn
+  authors: [Felice Frankel, many students]
+  linkUrl: http://www.picturingtolearn.org/
+  imgUrl: img/picturing-to-learn.png
+  imgFit: cover
+  tags: [science.life, science]
+  blurb: >
+    <i>"...drawings made by science students for the purpose of teaching others reveal misconceptions..."</i>
+
+- title: Groups & Group Convolutions
+  authors: [Christopher Olah]
+  linkUrl: http://colah.github.io/posts/2014-12-Groups-Convolution/
+  imgUrl: img/group-convolutions.png
+  tags: [math.discrete]
+
+- title: Understanding Convolutions
+  authors: [Christopher Olah]
+  linkUrl: http://colah.github.io/posts/2014-07-Understanding-Convolutions/
+  imgUrl: img/understanding-convolutions.png
+  tags: [math]
+
+- title: Inside 206-105
+  authors: [Edward Z. Yang]
+  linkUrl: http://blog.ezyang.com/
+  imgUrl: img/lets-play-a-game.png
+  tags: [math, cs.systems, cs.algorithms, cs.programming]
+  blurb: >
+    Academic CS blog featuring hand-drawn illustrations of complex ideas. See:
+    <a href='http://blog.ezyang.com/2014/11/tomatoes-are-a-subtype-of-vegetables/'>Tomatoes are a subtype of vegetables</a>,
+    <a href='http://blog.ezyang.com/2012/08/how-offlineimap-works/'>How OfflineIMAP works</a>,
+    <a href='http://blog.ezyang.com/2011/09/lets-play-a-game/'>Let's play a game</a>,
+    <a href='http://blog.ezyang.com/2010/11/dp-zoo-tour/'>DP Zoo Tour</a>
+
+- title: sinusoids, complex numbers and modulation
+  authors: [katja]
+  linkUrl: http://www.katjaas.nl/home/home.html
+  imgUrl: img/katja.jpg
+  imgFit: cover
+  tags: [math, cs]
+  blurb: >
+    <i>"... my visual fantasies on dsp mathematics and applications."</i>
+
+- title: Visualizing Projections
+  authors: [Shaun LeBron]
+  linkUrl: http://shaunlebron.github.io/visualizing-projections/
+  imgUrl: img/visualizing-projections.png
+  imgFit: cover
+  tags: [math.geometry, interaction, animation]
+
+- title: Seeing Circles, Sines, and Signals
+  authors: [Jack Schaedler]
+  linkUrl: http://jackschaedler.github.io/circles-sines-signals/index.html
+  imgUrl: img/circles-sines-signals.png
+  tags: [math, math.geometry, animation, interaction]
+  stars: 0
+  blurb: >
+    <i>"A visual introduction to digital signal processing and the discrete Fourier transform."</i>
+
+- title: Visualizing matrix multiplication as a linear combination
+  authors: [Eli Bendersky]
+  linkUrl: http://eli.thegreenplace.net/2015/visualizing-matrix-multiplication-as-a-linear-combination/
+  imgUrl: img/matrix-multiplication.png
+  tags: [math.linearAlgebra]
+
+- title: Neat Algorithms - Paxos
+  authors: [Harry Brundage]
+  linkUrl: http://harry.me/blog/2014/12/27/neat-algorithms-paxos/
+  imgUrl: img/neat-algorithms-paxos.png
+  imgFit: cover
+  tags: [cs.algorithms, cs.systems]
+
+- title: A Visual Approach to Calculus Problems
+  authors: [Tom M. Apostol]
+  linkUrl: http://www.its.caltech.edu/~mamikon/VisualCalc.html
+  imgUrl: img/visual-approach-to-calculus.png
+  imgFit: cover
+  tags: [math, math.geometry]
+
+- title: The Skyline Problem
+  authors: [Brian Gordon]
+  linkUrl: https://briangordon.github.io/2014/08/the-skyline-problem.html
+  imgUrl: img/skyline-problem.png
+  tags: [cs.algorithms]
+
+- title: The sound of the dialup, pictured
+  authors: [Oona Räisänen]
+  linkUrl: http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html
+  imgUrl: img/dialup.png
+  tags: [cs]
+
+- title: Funny Little Calculus Text
+  authors: [Robert Ghrist]
+  linkUrl: http://www.math.upenn.edu/~ghrist/FLCT/
+  imgUrl: img/flct.png
+  imgFit: cover
+  tags: [math]
+
+- title: Möbius Transformations Revealed
+  authors: [Douglas Arnold, Jonathan Rogness]
+  linkUrl: http://www.ima.umn.edu/~arnold/moebius/
+  imgUrl: img/mobius-transformations-revealed.png
+  imgFit: cover
+  tags: [math.geometry]
+
+- title: Forking and Dividing
+  authors: [Gabriel Conant]
+  linkUrl: http://forkinganddividing.com/
+  imgUrl: img/forking-and-dividing.png
+  imgFit: cover
+  tags: [math]
+  blurb: >
+    <i>"a map of the model theory universe"</i>
+
+- title: 'The secret lives of data: Raft'
+  authors: [Ben B. Johnson]
+  linkUrl: http://thesecretlivesofdata.com/raft/
+  imgUrl: img/secret-lives-of-data-raft.png
+  imgFit: cover
+  tags: [cs.algorithms, cs.systems]
+
+- title: Visualizing Algorithms
+  authors: [Mike Bostock]
+  linkUrl: http://bost.ocks.org/mike/algorithms/
+  imgUrl: img/visualizing-algorithms.png
+  imgFit: cover
+  tags: [cs.algorithms, meta]
+  stars: 1
+  blurb: >
+    <i>"To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset.
+    Instead there are logical rules that describe behavior."</i>
+
+- title: Simpson's Paradox
+  authors: [Victor Powell, Lewis Lehe]
+  linkUrl: http://vudlab.com/simpsons/
+  imgUrl: img/simpsons-paradox.png
+  imgFit: cover
+  tags: [math.prob+stats, interaction]
+  stars: 1
+  blurb: Part essay, part specialized visual calculator.
+
+- title: Melkman's Algorithm Visualized
+  authors: [Max Goldstein]
+  linkUrl: http://maxgoldste.in/melkman/
+  imgUrl: img/melkmans-algorithm.png
+  imgFit: cover
+  tags: [math.geometry, cs.algorithms, interaction]
+  blurb: >
+    <i>"If you wrapped a rubber band around a polygon and let it snap tight, you'd have the convex hull, which is one of the foundations of computational geometry."</i>
+
+- title: Invitation to Another Dimension
+  authors: [Max Goldstein]
+  linkUrl: http://maxgoldste.in/invitation-to-another-dimension/
+  imgUrl: img/invitation-to-another-dimension.png
+  imgFit: cover
+  tags: [math.linearAlgebra, interaction]
+  blurb: >
+    <i>"Mathematics has structure, ideas that start simple and then are extended and combined&hellip;
+    As we explore these ideas, we'll come across many ways of seeing, writing, and interacting."</i>
+
+- title: How to integrate text and images interactively
+  authors: [Bas Broekhuizen]
+  linkUrl: http://www.basbroekhuizen.nl/2014/03/12/how-to-integrate-text-and-images-with-interactivity/
+  imgUrl: img/how-to-integrate-text-and-images-interactively.png
+  imgFit: cover
+  tags: [meta]
+  blurb: >
+    Blog post (with example) on using "interactive text-image references".
+
+- title: Interactive Diagrams for Wikipedia
+  authors: [students of Chaim Gingold]
+  linkUrl: https://classes.soe.ucsc.edu/cmps179/Spring13/#Week9
+  imgUrl: img/wikipedia-diagrams.png
+  tags: [math, science.physics, science.life, cs.algorithms, art, interaction]
+  blurb: >
+    Final projects for course in "Simulation for Games".
+
+- title: Music Animation Machine
+  authors: [Stephen Malinowski]
+  linkUrl: https://www.youtube.com/user/musanim/videos
+  imgUrl: img/music-animation-machine.png
+  imgFit: cover
+  tags: [art, animation]
+
+- title: Proofs Without Words
+  authors: [Roger B. Nelsen]
+  linkUrl: http://www.amazon.com/Proofs-without-Words-Exercises-Classroom/dp/0883857006
+  imgUrl: img/proofs-without-words.png
+  imgFit: cover
+  tags: [math, math.geometry, book]
+
+- title: IBM Mathematics Peep Show
+  authors: [Charles Eames, Ray Eames]
+  linkUrl:
+  imgUrl: img/something-about-functions.jpg
+  imgFit: cover
+  tags: [math, math.geometry, science]
+  blurb: >
+    Five short films:
+    <a href='https://www.youtube.com/watch?v=97TYn9WvgO4'>Something About Functions</a>,
+    <a href='https://www.youtube.com/watch?v=wPR3XhIDP9w'>Eratosthenes</a>,
+    <a href='https://www.youtube.com/watch?v=2OuJhaqeUbo'>2<sup>n</sup></a>,
+    <a href='https://www.youtube.com/watch?v=OHA6Hcj7P8o'>Symmetry</a>,
+    <a href='https://www.youtube.com/watch?v=vTJ_tjVJBf4'>Topology</a>.
+
+- title: What's a Tensor?
+  authors: [Dan Fleisch]
+  linkUrl: https://www.youtube.com/watch?v=f5liqUk0ZTw
+  imgUrl: img/whats-a-tensor.jpg
+  imgFit: cover
+  tags: [math.linearAlgebra, physical]
+
+- title: Understanding Comics
+  authors: [Scott McCloud]
+  stars: 1
+  linkUrl: http://scottmccloud.com/2-print/1-uc/
+  imgUrl: img/understanding-comics.jpg
+  imgFit: contain
+  tags: [meta, art, book]
+  blurb: >
+    <i>"The pedagogical potential of the comic form is vast and mostly untapped"</i> &#8212;Bret Victor
+
+- title: 'Mathematica: A World Of Numbers ... And Beyond'
+  authors: [Charles Eames, Ray Eames]
+  linkUrl: http://www.eamesoffice.com/the-work/mathematica/
+  imgUrl: img/mathematica.jpg
+  imgFit: cover
+  tags: [math, math.discrete, math.geometry, math.prob+stats, interaction, physical]
+  blurb: >
+    See more photos on <a href="http://www.designboom.com/eng/funclub/mathematica.html">designboom</a>.
+
+- title: A Primer on Bézier Curves
+  authors: [Mike Kamermans]
+  linkUrl: http://pomax.github.io/bezierinfo/
+  imgUrl: img/bezier.png
+  imgFit: cover
+  tags: [math.geometry, cs.algorithms, interaction, animation]
+
+- title: Vi Hart's math videos
+  authors: [Vi Hart]
+  linkUrl: https://www.youtube.com/user/Vihart/videos
+  imgUrl: img/vihart.png
+  imgFit: cover
+  tags: [math, math.geometry, math.discrete]
+
+- title: Twelve Tones
+  authors: [Vi Hart]
+  linkUrl: https://www.youtube.com/watch?v=4niz8TfY794
+  imgUrl: img/twelve-tones.png
+  imgFit: cover
+  tags: [art, society]
+  blurb: >
+    More music at <a href="https://www.youtube.com/watch?v=VB6a4nI0BPA">Sound Braid</a>.
+
+- title: Bloom Filters
+  authors: [Jason Davies]
+  linkUrl: https://www.jasondavies.com/bloomfilter/
+  imgUrl: img/bloom-filters.png
+  imgFit: cover
+  tags: [cs.algorithms, interaction]
+
+- title: The XKCD Guide to the Universe's Most Bizarre Physics
+  authors: [Randall Munroe]
+  linkUrl: http://www.wired.com/2014/11/xkcd-guide-to-dimensions/
+  imgUrl: img/xkcd-dimensions.png
+  imgFit: contain
+  tags: [math.geometry, science.physics]
+
+- title: Recursive Drawing
+  authors: [Toby Schachman]
+  linkUrl: http://recursivedrawing.com/
+  imgUrl: img/recursive-drawing.png
+  imgFit: cover
+  tags: [math.geometry, cs.programming, interaction]
+  blurb: >
+    <i>"...an exploration of user interface ideas towards the development of a spatially-oriented programming environment."</i>
+
+- title: The First Six Books Of The Elements Of Euclid
+  authors: [Oliver Byrne]
+  stars: 1
+  linkUrl: https://archive.org/details/firstsixbooksofe00eucl
+  imgUrl: img/euclid.png
+  imgFit: cover
+  tags: [math.geometry, book]
+  blurb: >
+    Mind-boggling integration of text and images (from 1847):
+    <i>"We do not introduce colours for the purpose of entertainment...
+    but to assist the mind in its researches after truth."</i>
+
+- title: Gerrymandering, explained
+  authors: [Stephen Nass, Christopher Ingraham]
+  stars: 0
+  linkUrl: http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/01/this-is-the-best-explanation-of-gerrymandering-you-will-ever-see/
+  imgUrl: img/gerrymandering.png
+  imgFit: cover
+  tags: [society]
+
+- title: "Dynamics: The Geometry of Behavior"
+  authors: [Ralph Abraham, Christopher Shaw]
+  stars: 0
+  linkUrl: http://www.aerialpress.com/DYN/
+  imgUrl: img/dynamics-geometry-behavior.jpg
+  imgFit: cover
+  tags: [math, math.geometry, science.physics, science.life, book]
+  blurb: >
+    <a href="http://hobbieroth.blogspot.com/2012/12/dynamics-geometry-of-behavior.html">Descriptive blog post.</a>
+
+- title: "To Dissect a Mockingbird: A Graphical Notation for the Lambda Calculus with Animated Reduction"
+  authors: [David C. Keenan]
+  linkUrl: http://www.cs.virginia.edu/~cs655/readings/mockingbird.html
+  imgUrl: img/dissect-mockingbird.png
+  imgFit: contain
+  tags: [math, cs]
+  blurb: >
+    <i>"This paper provides an informal and entertaining introduction [to the lambda calculus] by means of an animated graphical notation."</i>
+
+- title: Materials stability & Nature's bike shop
+  authors: [Anubhav Jain]
+  linkUrl: http://hackingmaterials.com/2014/05/08/pdcomic/
+  imgUrl: img/materials-stability.png
+  imgFit: cover
+  tags: [science.physics]
+  blurb: >
+    <i>"A comics guide to predicting new materials."</i>
+
+- title: Beauty of Mathematics
+  authors: [Yann Pineill, Nicolas Lefaucheux]
+  linkUrl: https://vimeo.com/77330591
+  imgUrl: img/beauty-of-mathematics.jpg
+  imgFit: cover
+  tags: [math, math.discrete, math.geometry, math.prob+stats, science.physics, animation]
+  blurb: (Not so much <i>explanation</i>, but it's pretty.)
+
+- title: The Bitcoin Protocol
+  authors: [Brian Clifton]
+  linkUrl: http://www.briancliftonstudio.com/the-bitcoin-protocol/
+  imgUrl: img/bitcoin-protocol.png
+  imgFit: cover
+  tags: [cs.systems]
+
+- title: STEMblab
+  authors: [Gary Ballantyne]
+  linkUrl: http://stemblab.github.io/
+  imgUrl: img/stemblab.png
+  imgFit: cover
+  tags: [math, cs, science.physics, science.life]
+  blurb: >
+    <i>"Science, Technology, Engineering, Mathematics Web Laboratory"</i> &mdash; tutorials with editable code, powered by <a href="http://puzlet.org/">Puzlet</a>.
+
+- title: James Maxwell, Working in Wet Clay
+  authors: [Thomas West]
+  linkUrl: http://www.siggraph.org/publications/newsletter/v33n1/columns/west.html
+  imgUrl: img/maxwell.jpg
+  imgFit: cover
+  tags: [physical, meta]
+  blurb: >
+    <i>"&hellip;he knew if he could find a way to 'visualize the shape,' then he could begin to really 'understand' the vast complexity of the system."</i>
+    <p>See also: <a href="http://en.wikipedia.org/wiki/Maxwell%27s_thermodynamic_surface">Maxwell's thermodynamic surface &mdash; Wikipedia</a> (origin of the banner image);
+    <a href="http://www.sv.vt.edu/classes/ESM4714/methods/Gibbs.html">Gibbs' Thermodynamic Graphical Method</a></li>.
+
+- title: PathFinding.js Demo
+  authors: [Xueqiao Xu]
+  linkUrl: http://qiao.github.io/PathFinding.js/visual/
+  imgUrl: img/pathfinding-js.png
+  imgFit: cover
+  tags: [cs.algorithms, interaction]
+
+- title: "Reinventing Explanation"
+  authors: [Michael Nielsen]
+  stars: 0
+  linkUrl: http://michaelnielsen.org/reinventing_explanation/index.html
+  imgUrl: img/babylonian-map.jpg
+  imgFit: cover
+  tags: [meta]
+  blurb: Designing media to explain scientific ideas, using Simpson's paradox as a test case.
+
+- title: Kindergarten Quantum Mechanics
+  authors: [Bob Coecke]
+  stars: 0
+  linkUrl: http://arxiv.org/pdf/quant-ph/0510032.pdf
+  imgUrl: img/kindergarten-quantum-mechanics.png
+  imgFit: cover
+  tags: [science.physics]
+  blurb: >
+    <i>"doing quantum mechanics using only pictures of lines, squares, triangles and diamonds"</i>
+
+- title: How a Kalman filter works, in pictures
+  authors: [Tim Babb]
+  linkUrl: http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
+  imgUrl: img/kalman.png
+  imgFit: cover
+  tags: [math, cs]
+  blurb: >
+    Also pretty nice: <a href="http://www.bzarg.com/p/3d-rotational-dynamics-1-the-basics/">3D Rotational Dynamics 1: The Basics</a>.
+
+- title: Visualizing Rust's type-system
+  authors: [Jessy Pelletier]
+  linkUrl: http://jadpole.github.io/rust/type-system/
+  imgUrl: img/rust.png
+  imgFit: contain
+  tags: [cs.programming]
+
+- title: A Visual Introduction to Machine Learning
+  authors: [Stephanie Yee, Tony Chu]
+  linkUrl: http://www.r2d3.us/visual-intro-to-machine-learning-part-1/
+  imgUrl: img/visual-intro-to-machine-learning.png
+  imgFit: cover
+  tags: [math.prob+stats, cs]
+  stars: 1
+  blurb: A continuously-scrolling animated essay about building decision trees.
+
+- title: List of Physical Visualizations and Related Artifacts
+  authors: [Pierre Dragicevic, Yvonne Jansen, many others]
+  linkUrl: http://dataphys.org/list/
+  imgUrl: img/physical-visualizations.png
+  imgFit: cover
+  tags: [physical, meta, society, science.life, science.physics]
+
+- title: How DNS works
+  authors: [dnsimple, ???]
+  linkUrl: https://howdns.works/
+  imgUrl: img/how-dns-works.png
+  imgFit: contain
+  tags: [story, cs.systems]
+
+- title: Envisioning Information
+  authors: [Edward Tufte]
+  linkUrl: http://www.edwardtufte.com/tufte/books_ei
+  imgUrl: img/envisioning-information.png
+  imgFit: contain
+  tags: [math, science, society, art, meta, book]
+  stars: 1
+
+- title: Who’ll Freeze First? A Puzzle About Size and Staying Warm
+  authors: [Robert Krulwich, Aatish Bhatia]
+  linkUrl: http://noticing.co/
+  imgUrl: img/noticing.png
+  imgFit: contain
+  tags: [math, science.life, science.physics, interaction]
+
+- title: The Way Things Work
+  authors: [David Macaulay]
+  linkUrl:
+  imgUrl: img/the-way-things-work.png
+  imgFit: cover
+  tags: [book, science, society]
+
+- title: Interpreting Confidence Intervals
+  authors: [Kristoffer Magnusson]
+  linkUrl: http://rpsychologist.com/d3/CI/
+  imgUrl: img/interpreting-confidence-intervals.png
+  imgFit: contain
+  tags: [math.prob+stats, interaction]
+  blurb: >
+    See also: <a href="http://rpsychologist.com/d3/correlation/">Interpreting Correlations</a> & others.
+
+tagGroups:
+  - name: topic
+    color: '#339999'
+    tags:
+    - name: math
+      children:
+      - name: discrete
+      - name: geometry
+      - name: linearAlgebra
+      - name: prob+stats
+    - name: science
+      children:
+      - name: life
+      - name: physics
+    - name: cs
+      children:
+      - name: programming
+      - name: algorithms
+      - name: systems
+    - name: society
+    - name: art
+  - name: media/methods
+    color: '#ff9900'
+    tags:
+    - name: animation
+    - name: interaction
+      children:
+      - name: game
+    - name: story
+    - name: book
+    - name: physical
+  - name: other
+    color: '#990033'
+    tags:
+    - name: meta
