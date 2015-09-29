@@ -1300,6 +1300,21 @@
         "society",
         "interaction.game"
       ]
+    },
+    {
+      "title": "Apparatus",
+      "authors": [
+        "Toby Schachman"
+      ],
+      "linkUrl": "http://aprt.us/editor/",
+      "imgUrl": "img/apparatus.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.geometry",
+        "cs.programming",
+        "interaction"
+      ],
+      "blurb": "<i>\"Apparatus is a hybrid graphics editor and programming environment for creating interactive diagrams.\"</i>\n"
     }
   ],
   "tagGroups": [
