@@ -2,6 +2,8 @@
 
 The **Gallery of Concept Visualization** features projects which use pictures to communicate complex and difficult ideas, the same way data visualizations use pictures to make sense of data.
 
+![Thumbnails of gallery projects](https://pbs.twimg.com/media/CQF8burUwAABKb_.jpg:medium)
+
 ## Contribute
 
 Feel free to <a href='mailto:joshuah@alum.mit.edu'>email</a> with comments, questions, and contributions.
@@ -12,7 +14,7 @@ There's a build process involved: `build.sh` generates `data.json` from `src/ind
 
 `build.sh` requires `yaml2json` and `babel`. Both are available from `npm`.
 
-With [http://entrproject.org/](entr), you can set up a nifty auto-build system:
+With [entr](http://entrproject.org/), you can set up a nifty auto-build system:
 
 ```sh
 ls src/* | entr ./build.sh
