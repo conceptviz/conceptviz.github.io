@@ -10,4 +10,10 @@ Pull requests are welcome!
 
 There's a build process involved: `build.sh` generates `data.json` from `src/index.yaml` and `index.js` from `src/index.jsx`. You will want to edit those files and then run `build.sh`. Include the build products as part of your PR; the use of github.io demands it!
 
-(`build.sh` requires `yaml2json` and `babel`. Both are available from `npm`.)
+`build.sh` requires `yaml2json` and `babel`. Both are available from `npm`.
+
+With [http://entrproject.org/](entr), you can set up a nifty auto-build system:
+
+```sh
+ls src/* | entr ./build.sh
+```
