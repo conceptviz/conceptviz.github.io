@@ -180,7 +180,8 @@ var App = React.createClass({
         resources: this.getResourcesToDisplay(),
         hasData: !!this.state.data,
         onClickTagInResource: this.onClickTagInResource,
-        selectedTagsByGroup: this.state.selectedTagsByGroup
+        selectedTagsByGroup: this.state.selectedTagsByGroup,
+        numResources: this.getResolvedResources().length
       })
     );
   },
@@ -412,6 +413,17 @@ var About = React.createClass({
             ),
             ', whose elegant typography I borrowed and corrupted.'
           )
+        )
+      ),
+      React.createElement(
+        'p',
+        null,
+        this.props.numResources,
+        ' resources listed. ',
+        React.createElement(
+          'i',
+          null,
+          'Quantity Has A Quality All Its Own.'
         )
       )
     );

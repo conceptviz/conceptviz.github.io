@@ -148,6 +148,7 @@ var App = React.createClass({
           hasData={!!this.state.data}
           onClickTagInResource={this.onClickTagInResource}
           selectedTagsByGroup={this.state.selectedTagsByGroup}
+          numResources={this.getResolvedResources().length}
         />
       </div>
     );
@@ -319,6 +320,7 @@ var About = React.createClass({
         <li>and <a href='http://www.radicalcartography.net/' style={linkStyle}>Bill Rankin</a>, whose elegant typography I borrowed and corrupted.</li>
         </ul>
         </p>
+        <p>{this.props.numResources} resources listed. <i>Quantity Has A Quality All Its Own.</i></p>
 
       </div>
     );

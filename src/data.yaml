@@ -10,7 +10,7 @@ resources:
   blurb: >
     <i>"This is a story of how harmless choices can make a harmful world."</i>
 
-- title: algovis
+- title: Algovis
   authors: [Ian Johnson]
   linkUrl: https://github.com/enjalot/algovis/blob/master/README.md
   imgUrl: img/algovis.png
@@ -49,14 +49,12 @@ resources:
   imgUrl: img/visual-complex-analysis.png
   authors: [Tristan Needham]
   tags: [math, book]
-  stars: 0
 
 - title: Visual Group Theory
   authors: [Nathan Carter]
   linkUrl: http://web.bentley.edu/empl/c/ncarter/vgt/
   imgUrl: img/visual-group-theory.png
   tags: [math.discrete, book]
-  stars: 0
 
 - title: Tabletop Whale
   authors: [Eleanor Lutz]
@@ -64,7 +62,6 @@ resources:
   imgUrl: img/tabletop-whale.png
   imgFit: cover
   tags: [science.life, science, animation]
-  stars: 0
 
 - title: 'Earth: A Primer'
   authors: [Chaim Gingold]
@@ -81,14 +78,12 @@ resources:
   linkUrl: https://www.stellar.org/stories/adventures-in-galactic-consensus-chapter-1/
   imgUrl: img/stellar.png
   tags: [cs.systems, story]
-  stars: 0
 
 - title: Functors, Applicatives, And Monads In Pictures
   authors: [Aditya Bhargava]
   linkUrl: http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
   imgUrl: img/functors-applicatives-and-monads.png
   tags: [cs.programming]
-  stars: 0
   blurb: >
     See also: Bhargava's book <a href="http://manning.com/bhargava/">Grokking Algorithms</a>.
 
@@ -167,7 +162,7 @@ resources:
     <i>"People currently think of text as information to be consumed.
     I want text to be used as an environment to think in."</i>
 
-- title: matrix
+- title: Matrix
   authors: [Nicky Case]
   linkUrl: http://ncase.me/matrix/
   imgUrl: img/matrix.png
@@ -213,7 +208,6 @@ resources:
   imgUrl: img/topological-picturebook.jpg
   imgFit: cover
   tags: [math, math.geometry, book]
-  stars: 0
 
 - title: The Shape Of Space
   authors: [Jeffrey R. Weeks]
@@ -295,7 +289,7 @@ resources:
     <a href='http://blog.ezyang.com/2011/09/lets-play-a-game/'>Let's play a game</a>,
     <a href='http://blog.ezyang.com/2010/11/dp-zoo-tour/'>DP Zoo Tour</a>
 
-- title: sinusoids, complex numbers and modulation
+- title: Sinusoids, complex numbers and modulation
   authors: [katja]
   linkUrl: http://www.katjaas.nl/home/home.html
   imgUrl: img/katja.jpg
@@ -316,7 +310,6 @@ resources:
   linkUrl: http://jackschaedler.github.io/circles-sines-signals/index.html
   imgUrl: img/circles-sines-signals.png
   tags: [math, math.geometry, animation, interaction]
-  stars: 0
   blurb: >
     <i>"A visual introduction to digital signal processing and the discrete Fourier transform."</i>
 
@@ -552,7 +545,6 @@ resources:
 
 - title: Gerrymandering, explained
   authors: [Stephen Nass, Christopher Ingraham]
-  stars: 0
   linkUrl: http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/01/this-is-the-best-explanation-of-gerrymandering-you-will-ever-see/
   imgUrl: img/gerrymandering.png
   imgFit: cover
@@ -560,7 +552,6 @@ resources:
 
 - title: "Dynamics: The Geometry of Behavior"
   authors: [Ralph Abraham, Christopher Shaw]
-  stars: 0
   linkUrl: http://www.aerialpress.com/DYN/
   imgUrl: img/dynamics-geometry-behavior.jpg
   imgFit: cover
@@ -630,7 +621,6 @@ resources:
 
 - title: "Reinventing Explanation"
   authors: [Michael Nielsen]
-  stars: 0
   linkUrl: http://michaelnielsen.org/reinventing_explanation/index.html
   imgUrl: img/babylonian-map.jpg
   imgFit: cover
@@ -639,7 +629,6 @@ resources:
 
 - title: Kindergarten Quantum Mechanics
   authors: [Bob Coecke]
-  stars: 0
   linkUrl: http://arxiv.org/pdf/quant-ph/0510032.pdf
   imgUrl: img/kindergarten-quantum-mechanics.png
   imgFit: cover
@@ -716,6 +705,57 @@ resources:
   tags: [math.prob+stats, interaction]
   blurb: >
     See also: <a href="http://rpsychologist.com/d3/correlation/">Interpreting Correlations</a> & others.
+
+- title: Immersive Linear Algebra
+  authors: [J. Ström, K. Åström, T. Akenine-Möller]
+  linkUrl: http://immersivemath.com/ila/index.html
+  imgUrl: img/immersive-linear-algebra.png
+  imgFit: cover
+  tags: [math.linearAlgebra, interaction]
+  blurb: >
+    <i>"The world's first linear algebra book with fully interactive figures."</i>
+
+- title: Math Insight
+  authors: [Duane Q. Nykamp, others]
+  linkUrl: http://mathinsight.org/
+  imgUrl: img/math-insight.png
+  imgFit: cover
+  tags: [math, math.linearAlgebra, interaction]
+  blurb: >
+    Copious interactive diagrams and ingenious experiments with digital publishing
+    (<a href='http://mathinsight.org/thread/list'>threads</a>, <a href='http://mathinsight.org/about/notationsystems'>notation systems</a>)
+
+- title: Years You Have Left to Live, Probably
+  authors: [Nathan Yau]
+  linkUrl: http://flowingdata.com/2015/09/23/years-you-have-left-to-live-probably/
+  imgUrl: img/years-left-to-live.png
+  imgFit: contain
+  tags: [math.prob+stats, society, interaction]
+  blurb: >
+    Great illustration of survival analysis, and of probabalistic proccesses in general. <i>Memento mori.</i>
+
+- title: Visualizing map distortion
+  authors: [Ian Johnson]
+  linkUrl: http://bl.ocks.org/enjalot/bd552e711b8325c64729
+  imgUrl: img/visualizing-map-distortion.png
+  imgFit: cover
+  tags: [math.geometry, society, interaction]
+
+- title: Promisees
+  authors: [Nicola Bevaqua]
+  linkUrl: http://bevacqua.github.io/promisees/
+  imgUrl: img/promisees.png
+  imgFit: cover
+  tags: [cs.programming, interaction]
+  blurb: >
+    <i>"Promise visualization playground for the adventurous"</i>
+
+- title: Neurotic Neurons
+  authors: [Nicky Case]
+  linkUrl: http://ncase.me/neurons/
+  imgUrl: img/neurotic-neurons.png
+  imgFit: cover
+  tags: [science.life, society, interaction.game]
 
 tagGroups:
   - name: topic

@@ -18,7 +18,7 @@
       "blurb": "<i>\"This is a story of how harmless choices can make a harmful world.\"</i>\n"
     },
     {
-      "title": "algovis",
+      "title": "Algovis",
       "authors": [
         "Ian Johnson"
       ],
@@ -91,8 +91,7 @@
       "tags": [
         "math",
         "book"
-      ],
-      "stars": 0
+      ]
     },
     {
       "title": "Visual Group Theory",
@@ -104,8 +103,7 @@
       "tags": [
         "math.discrete",
         "book"
-      ],
-      "stars": 0
+      ]
     },
     {
       "title": "Tabletop Whale",
@@ -119,8 +117,7 @@
         "science.life",
         "science",
         "animation"
-      ],
-      "stars": 0
+      ]
     },
     {
       "title": "Earth: A Primer",
@@ -148,8 +145,7 @@
       "tags": [
         "cs.systems",
         "story"
-      ],
-      "stars": 0
+      ]
     },
     {
       "title": "Functors, Applicatives, And Monads In Pictures",
@@ -161,7 +157,6 @@
       "tags": [
         "cs.programming"
       ],
-      "stars": 0,
       "blurb": "See also: Bhargava's book <a href=\"http://manning.com/bhargava/\">Grokking Algorithms</a>.\n"
     },
     {
@@ -272,7 +267,7 @@
       "blurb": "<i>\"People currently think of text as information to be consumed. I want text to be used as an environment to think in.\"</i>\n"
     },
     {
-      "title": "matrix",
+      "title": "Matrix",
       "authors": [
         "Nicky Case"
       ],
@@ -356,8 +351,7 @@
         "math",
         "math.geometry",
         "book"
-      ],
-      "stars": 0
+      ]
     },
     {
       "title": "The Shape Of Space",
@@ -492,7 +486,7 @@
       "blurb": "Academic CS blog featuring hand-drawn illustrations of complex ideas. See: <a href='http://blog.ezyang.com/2014/11/tomatoes-are-a-subtype-of-vegetables/'>Tomatoes are a subtype of vegetables</a>, <a href='http://blog.ezyang.com/2012/08/how-offlineimap-works/'>How OfflineIMAP works</a>, <a href='http://blog.ezyang.com/2011/09/lets-play-a-game/'>Let's play a game</a>, <a href='http://blog.ezyang.com/2010/11/dp-zoo-tour/'>DP Zoo Tour</a>\n"
     },
     {
-      "title": "sinusoids, complex numbers and modulation",
+      "title": "Sinusoids, complex numbers and modulation",
       "authors": [
         "katja"
       ],
@@ -532,7 +526,6 @@
         "animation",
         "interaction"
       ],
-      "stars": 0,
       "blurb": "<i>\"A visual introduction to digital signal processing and the discrete Fourier transform.\"</i>\n"
     },
     {
@@ -931,7 +924,6 @@
         "Stephen Nass",
         "Christopher Ingraham"
       ],
-      "stars": 0,
       "linkUrl": "http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/01/this-is-the-best-explanation-of-gerrymandering-you-will-ever-see/",
       "imgUrl": "img/gerrymandering.png",
       "imgFit": "cover",
@@ -945,7 +937,6 @@
         "Ralph Abraham",
         "Christopher Shaw"
       ],
-      "stars": 0,
       "linkUrl": "http://www.aerialpress.com/DYN/",
       "imgUrl": "img/dynamics-geometry-behavior.jpg",
       "imgFit": "cover",
@@ -1064,7 +1055,6 @@
       "authors": [
         "Michael Nielsen"
       ],
-      "stars": 0,
       "linkUrl": "http://michaelnielsen.org/reinventing_explanation/index.html",
       "imgUrl": "img/babylonian-map.jpg",
       "imgFit": "cover",
@@ -1078,7 +1068,6 @@
       "authors": [
         "Bob Coecke"
       ],
-      "stars": 0,
       "linkUrl": "http://arxiv.org/pdf/quant-ph/0510032.pdf",
       "imgUrl": "img/kindergarten-quantum-mechanics.png",
       "imgFit": "cover",
@@ -1222,6 +1211,95 @@
         "interaction"
       ],
       "blurb": "See also: <a href=\"http://rpsychologist.com/d3/correlation/\">Interpreting Correlations</a> & others.\n"
+    },
+    {
+      "title": "Immersive Linear Algebra",
+      "authors": [
+        "J. Ström",
+        "K. Åström",
+        "T. Akenine-Möller"
+      ],
+      "linkUrl": "http://immersivemath.com/ila/index.html",
+      "imgUrl": "img/immersive-linear-algebra.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.linearAlgebra",
+        "interaction"
+      ],
+      "blurb": "<i>\"The world's first linear algebra book with fully interactive figures.\"</i>\n"
+    },
+    {
+      "title": "Math Insight",
+      "authors": [
+        "Duane Q. Nykamp",
+        "others"
+      ],
+      "linkUrl": "http://mathinsight.org/",
+      "imgUrl": "img/math-insight.png",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "math.linearAlgebra",
+        "interaction"
+      ],
+      "blurb": "Copious interactive diagrams and ingenious experiments with digital publishing (<a href='http://mathinsight.org/thread/list'>threads</a>, <a href='http://mathinsight.org/about/notationsystems'>notation systems</a>)\n"
+    },
+    {
+      "title": "Years You Have Left to Live, Probably",
+      "authors": [
+        "Nathan Yau"
+      ],
+      "linkUrl": "http://flowingdata.com/2015/09/23/years-you-have-left-to-live-probably/",
+      "imgUrl": "img/years-left-to-live.png",
+      "imgFit": "contain",
+      "tags": [
+        "math.prob+stats",
+        "society",
+        "interaction"
+      ],
+      "blurb": "Great illustration of survival analysis, and of probabalistic proccesses in general. <i>Memento mori.</i>\n"
+    },
+    {
+      "title": "Visualizing map distortion",
+      "authors": [
+        "Ian Johnson"
+      ],
+      "linkUrl": "http://bl.ocks.org/enjalot/bd552e711b8325c64729",
+      "imgUrl": "img/visualizing-map-distortion.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.geometry",
+        "society",
+        "interaction"
+      ]
+    },
+    {
+      "title": "Promisees",
+      "authors": [
+        "Nicola Bevaqua"
+      ],
+      "linkUrl": "http://bevacqua.github.io/promisees/",
+      "imgUrl": "img/promisees.png",
+      "imgFit": "cover",
+      "tags": [
+        "cs.programming",
+        "interaction"
+      ],
+      "blurb": "<i>\"Promise visualization playground for the adventurous\"</i>\n"
+    },
+    {
+      "title": "Neurotic Neurons",
+      "authors": [
+        "Nicky Case"
+      ],
+      "linkUrl": "http://ncase.me/neurons/",
+      "imgUrl": "img/neurotic-neurons.png",
+      "imgFit": "cover",
+      "tags": [
+        "science.life",
+        "society",
+        "interaction.game"
+      ]
     }
   ],
   "tagGroups": [
