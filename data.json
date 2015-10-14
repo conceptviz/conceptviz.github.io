@@ -28,7 +28,7 @@
         "meta",
         "cs.algorithms"
       ],
-      "blurb": "<i>\"This is collection of projects and links about algorithm visualization.\"</i>\n"
+      "blurb": "<i>\"collection of projects and links about algorithm visualization\"</i>\n"
     },
     {
       "title": "Visualising Sorting Algorithms",
@@ -1312,9 +1312,110 @@
       "tags": [
         "math.geometry",
         "cs.programming",
-        "interaction"
+        "interaction",
+        "meta"
       ],
       "blurb": "<i>\"Apparatus is a hybrid graphics editor and programming environment for creating interactive diagrams.\"</i>\n"
+    },
+    {
+      "title": "Visual Information Theory",
+      "authors": [
+        "Chris Olah"
+      ],
+      "linkUrl": "http://colah.github.io/posts/2015-09-Visual-Information/",
+      "imgUrl": "img/visual-information-theory.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.prob+stats",
+        "cs"
+      ],
+      "blurb": "<i>&hellip; information theory can seem kind of intimidating. I don’t think there’s any reason it should be. In fact, many core ideas can be explained completely visually!\"</i>\n"
+    },
+    {
+      "title": "Coloring Maps",
+      "authors": [
+        "Adam Pearce"
+      ],
+      "linkUrl": "http://roadtolarissa.com/blog/2015/01/04/coloring-maps-with-d3/",
+      "imgUrl": "img/coloring-maps.png",
+      "imgFit": "cover",
+      "tags": [
+        "math",
+        "cs",
+        "art",
+        "interaction"
+      ],
+      "blurb": "See also: <a href=\"http://roadtolarissa.com/blog/2015/02/22/svg-path-strings/\"> SVG Path Strings</a>\n"
+    },
+    {
+      "title": "A cartoon guide to Flux",
+      "authors": [
+        "Lin Clark"
+      ],
+      "linkUrl": "https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207",
+      "imgUrl": "img/cartoon-guide-to-flux.png",
+      "imgFit": "cover",
+      "tags": [
+        "cs.programming"
+      ]
+    },
+    {
+      "title": "What is code?",
+      "authors": [
+        "Paul Ford"
+      ],
+      "linkUrl": "http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
+      "imgUrl": "img/what-is-code.png",
+      "imgFit": "cover",
+      "tags": [
+        "cs.programming",
+        "society",
+        "interaction",
+        "story"
+      ]
+    },
+    {
+      "title": "Calculating the intersection area of 3+ circles",
+      "authors": [
+        "Ben Frederickson"
+      ],
+      "linkUrl": "http://www.benfrederickson.com/calculating-the-intersection-of-3-or-more-circles/",
+      "imgUrl": "img/calculating-intersection-area.png",
+      "imgFit": "contain",
+      "tags": [
+        "cs.algorithms",
+        "math.geometry",
+        "interaction"
+      ],
+      "blurb": "See also: <a href=\"http://www.benfrederickson.com/heap-visualization/\"> Visualizing min-heap algorithms with D3.js</a>\n"
+    },
+    {
+      "title": "Science Isn't Broken",
+      "authors": [
+        "Christie Aschwanden"
+      ],
+      "linkUrl": "http://fivethirtyeight.com/features/science-isnt-broken/",
+      "imgUrl": "img/science-isnt-broken.png",
+      "imgFit": "cover",
+      "tags": [
+        "math.prob+stats",
+        "science",
+        "society",
+        "interaction"
+      ],
+      "blurb": "Brilliant interactive puts readers in the statistical driver's seat.\n"
+    },
+    {
+      "title": "Instagram Direct, Twitter DMS, and the Social/Communications Map",
+      "authors": [
+        "Ben Thompson"
+      ],
+      "linkUrl": "https://stratechery.com/2013/instagram-direct-twitter-dms-socialcommunications-map/",
+      "imgUrl": "img/social-communications-map.png",
+      "imgFit": "cover",
+      "tags": [
+        "society"
+      ]
     }
   ],
   "tagGroups": [
