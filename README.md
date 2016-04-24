@@ -10,12 +10,6 @@ Feel free to <a href='mailto:joshuah@alum.mit.edu'>email</a> with comments, ques
 
 Pull requests are welcome!
 
-There's a build process involved: `build.sh` generates `data.json` from `src/index.yaml` and `index.js` from `src/index.jsx`. You will want to edit those files and then run `build.sh`. Include the build products as part of your PR; the use of github.io demands it!
-
-`build.sh` requires `yaml2json` and `babel`. Both are available from `npm`.
-
-With [entr](http://entrproject.org/), you can set up a nifty auto-build system:
-
-```sh
-ls src/* | entr ./build.sh
-```
+* After cloning the repo, make sure to run `npm install` to sync up necessary NPM packages.
+* During development, run `npm run start`. This starts a server at `localhost:3333` which automatically (hot-)reloads the site when a source file (`src/index.jsx` or `src/data.yaml`) changes. It's real cool.
+* Before submitting a PR, run `npm run build` to generate a prod-ready `index.js`. Include this output as part of your PR; the use of github.io demands it!
