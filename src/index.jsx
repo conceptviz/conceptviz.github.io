@@ -5,7 +5,14 @@
  * SORRY ABOUT THE CODE
  */
 
-var {Route, DefaultRoute, RouteHandler, Redirect, Navigation} = ReactRouter;
+import React from 'react';
+import ReactRouter from 'react-router';
+import Radium from 'radium';
+import _ from 'underscore';
+
+const { Route, DefaultRoute, RouteHandler, Redirect, Navigation } = ReactRouter;
+
+import appData from 'json!yaml!./data.yaml';
 
 // given a node in a tag tree, returns a flat set of tags
 var tagsFromTagTree = function(node, namePrefix, tagGroup, color) {
@@ -58,7 +65,6 @@ var App = React.createClass({
     var tags = this.props.params.tags;
 
     return {
-      data: null,
       selectedTagsByGroup: tags ? decodeTags(tags) : {},
     };
   },
@@ -122,7 +128,7 @@ var App = React.createClass({
       letterSpacing: '00em',
     };
 
-    return this.state.data && this.state.data.tagGroups.map(tagGroup =>
+    return appData.tagGroups.map(tagGroup =>
       <div key={tagGroup.name} style={{marginTop: 20, fontSize: 13.25}}>
         <div style={level1Style}>{tagGroup.name}</div>
         {tagGroup.tags.map(node =>
@@ -145,7 +151,6 @@ var App = React.createClass({
       <div style={{marginLeft: dims.menuWidth, paddingTop: 45}}>
         <RouteHandler
           resources={this.getResourcesToDisplay()}
-          hasData={!!this.state.data}
           onClickTagInResource={this.onClickTagInResource}
           selectedTagsByGroup={this.state.selectedTagsByGroup}
           numResources={this.getResolvedResources().length}
@@ -201,7 +206,7 @@ var App = React.createClass({
 
   getTags() {
     return _.flatten(
-      this.state.data.tagGroups.map(tagGroup =>
+      appData.tagGroups.map(tagGroup =>
         tagGroup.tags.map(tag =>
           tagsFromTagTree(tag, null, tagGroup.name, tagGroup.color)
         )
@@ -218,39 +223,14 @@ var App = React.createClass({
   },
 
   getResolvedResources() {
-    if (this.state.data) {
-      var result = this.state.data.resources.map(resource =>
-        _.extend({}, resource, {tags: resource.tags.map(tag => this.getTagByName(tag))})
-      );
-      return result;
-    } else {
-      return [];
-    }
+    var result = appData.resources.map(resource =>
+      _.extend({}, resource, {tags: resource.tags.map(tag => this.getTagByName(tag))})
+    );
+    return result;
   },
 
   onHeaderClick() {
     this.transitionTo('resources', {tags: encodeTags({})});
-  },
-
-  componentDidMount() {
-    var request = new XMLHttpRequest();
-    request.open('GET', 'data.json', true);
-
-    request.onload = () => {
-      if (request.status >= 200 && request.status < 400) {
-        // Success!
-        var data = JSON.parse(request.responseText);
-        this.setState({data: data});
-      } else {
-        // server error
-      }
-    };
-
-    request.onerror = function() {
-      // connection error
-    };
-
-    request.send();
   },
 
   componentWillReceiveProps(newProps) {
@@ -267,11 +247,10 @@ var App = React.createClass({
 
 var Resources = React.createClass({
   render() {
-    var hasData = this.props.hasData;
     var resources = this.props.resources;
     if (!resources) { return <div> WAT</div> ;}
 
-    if (hasData && resources.length === 0) {
+    if (resources.length === 0) {
       return <div>No matching resources.</div>;
     } else {
       return (

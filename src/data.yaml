@@ -669,7 +669,7 @@ resources:
   tags: [physical, meta, society, science.life, science.physics]
 
 - title: How DNS works
-  authors: [dnsimple, ???]
+  authors: [dnsimple, '???']
   linkUrl: https://howdns.works/
   imgUrl: img/how-dns-works.png
   imgFit: contain
