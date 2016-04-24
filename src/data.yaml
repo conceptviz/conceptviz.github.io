@@ -827,6 +827,20 @@ resources:
   imgFit: cover
   tags: [society]
 
+- title: "Rock 'n Poll"
+  authors: [Maarten Lambrechts]
+  linkUrl: http://rocknpoll.graphics/
+  imgUrl: img/rock-n-poll.png
+  imgFit: cover
+  tags: [math.prob+stats, society]
+
+- title: Neural Network Playground
+  authors: [Tensorflow]
+  linkUrl: http://playground.tensorflow.org/
+  imgUrl: img/tensorflow-neural-network.png
+  imgFit: cover
+  tags: [cs.algorithms, interaction]
+
 tagGroups:
   - name: topic
     color: '#339999'
