@@ -160,12 +160,12 @@ var App = React.createClass({
   },
 
   onClickTagInTree(tagName, tagGroup) {
-    var isSelected = _(this.state.selectedTagsByGroup[tagGroup]).contains(tagName);
+    var isSelected = _.contains(this.state.selectedTagsByGroup[tagGroup], tagName);
     var transformer = isSelected ? _.difference : _.union;
 
     var tagNames = this.getTagNames();
     var tagNamesToAddOrRemove = [tagName].concat(
-      _(tagNames).filter(tag => tag.startsWith(tagName + '.'))
+      _.filter(tagNames, tag => tag.startsWith(tagName + '.'))
     );
 
     var newTags = React.addons.update(this.state.selectedTagsByGroup,
@@ -180,7 +180,7 @@ var App = React.createClass({
   onClickTagInResource(tagName, tagGroup) {
     var tagNames = this.getTagNames();
     var tagNamesToAddOrRemove = [tagName].concat(
-      _(tagNames).filter(tag => tag.startsWith(tagName + '.'))
+      _.filter(tagNames, tag => tag.startsWith(tagName + '.'))
     );
 
     var newTags = {[tagGroup]: tagNamesToAddOrRemove};
@@ -190,18 +190,18 @@ var App = React.createClass({
 
   getResourcesToDisplay() {
     var matchingResources = this.getResolvedResources().filter(resource =>
-      _(this.state.selectedTagsByGroup).every((selectedTags) =>
-        selectedTags.length === 0 || _(selectedTags).some(tag => _(resource.tags).findWhere({name: tag}))
+      _.every(this.state.selectedTagsByGroup, (selectedTags) =>
+        selectedTags.length === 0 || _.some(selectedTags, tag => _.find(resource.tags, {name: tag}))
       )
     );
-    return _(matchingResources).chain()
+    return _.chain(matchingResources)
       .sortBy(resource => resource.title)
       .sortBy(resource => -(resource.stars || 0))
       .value();
   },
 
   getTagNames() {
-    return _(this.getTags()).pluck('name');
+    return _.pluck(this.getTags(), 'name');
   },
 
   getTags() {
@@ -215,7 +215,7 @@ var App = React.createClass({
   },
 
   getTagByName(name) {
-    var result = _(this.getTags()).findWhere({name: name});
+    var result = _.find(this.getTags(), {name: name});
     if (!result) {
       throw `tag '${name}' not found`;
     }
@@ -324,7 +324,7 @@ var TagTreeNode = React.createClass({
 
     var color = this.props.node.color || this.props.color;
     var name = (this.props.namePrefix ? this.props.namePrefix + '.' : '') + this.props.node.name;
-    var selected = this.props.selectedTags && _(this.props.selectedTags).contains(name);
+    var selected = this.props.selectedTags && _.contains(this.props.selectedTags, name);
 
     return (
       <div>
