@@ -11,5 +11,5 @@ Feel free to <a href='mailto:joshuah@alum.mit.edu'>email</a> with comments, ques
 Pull requests are welcome!
 
 * After cloning the repo, make sure to run `npm install` to sync up necessary NPM packages.
-* During development, run `npm run start`. This starts a server at `localhost:3333` which automatically (hot-)reloads the site when a source file (`src/index.jsx` or `src/data.yaml`) changes. It's real cool.
+* During development, run `npm run start`. This starts a server at `localhost:3000` which automatically (hot-)reloads the site when a source file (`src/index.jsx` or `src/data.yaml`) changes. It's real cool.
 * Before submitting a PR, run `npm run build` to generate a prod-ready `index.js`. Include this output as part of your PR; the use of github.io demands it!
