@@ -841,6 +841,46 @@ resources:
   imgFit: cover
   tags: [cs.algorithms, interaction]
 
+- title: Clever Homotopy Equivalences
+  authors: [Tai-Danae Bradley]
+  linkUrl: http://www.math3ma.com/mathema/2016/4/18/clever-homotopy-equivalences
+  imgUrl: img/homotopy-equiv.jpg
+  imgFit: cover
+  tags: [math.geometry]
+
+- title: Back to the Future of Handwriting Recognition
+  authors: [Jack Schaedler]
+  linkUrl: http://jackschaedler.github.io/handwriting-recognition/
+  imgUrl: img/handwriting-recognition.png
+  imgFit: fit
+  tags: [cs.algorithms, math.geometry, interaction]
+
+- title: Line-Intersection
+  authors: [Adam Pearce]
+  linkUrl: http://bl.ocks.org/1wheel/464141fe9b940153e636
+  imgUrl: img/line-intersection.png
+  imgFit: cover
+  tags: [cs.algorithms, math.geometry, interaction]
+  blurb: >
+    Responsive parallel representations make the Bentley–Ottmann algorithm
+    easier to understand.
+
+- title: RxMarbles
+  authors: [André Staltz]
+  linkUrl: http://rxmarbles.com/
+  imgUrl: img/rx-marbles.png
+  imgFit: cover
+  tags: [cs.programming, interaction]
+  blurb: >
+    Slick interactive playground for functional-reactive transformations.
+
+- title: Git From The Inside Out
+  authors: [Mary Rose Cook]
+  linkUrl: https://maryrosecook.com/blog/post/git-from-the-inside-out
+  imgUrl: img/git-inside.png
+  imgFit: cover
+  tags: [cs.programming]
+
 tagGroups:
   - name: topic
     color: '#339999'
