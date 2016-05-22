@@ -773,7 +773,7 @@ resources:
   imgFit: cover
   tags: [math.prob+stats, cs]
   blurb: >
-    <i>&hellip; information theory can seem kind of intimidating.
+    <i>"&hellip; information theory can seem kind of intimidating.
     I don’t think there’s any reason it should be.
     In fact, many core ideas can be explained completely visually!"</i>
 
@@ -880,6 +880,15 @@ resources:
   imgUrl: img/git-inside.png
   imgFit: cover
   tags: [cs.programming]
+
+- title: Prolog in 10 Figures
+  authors: [Alain Colmerauer]
+  linkUrl: https://web.archive.org/web/20150906025711/http://ijcai.org/Past%20Proceedings/IJCAI-83-VOL-1/PDF/117a.pdf
+  imgUrl: img/prolog.png
+  imgFit: cover
+  tags: [cs.programming]
+  blurb: >
+    <i>"Prolog is presented in a rigourous way, through 10 easily understandable figures."</i>
 
 tagGroups:
   - name: topic
