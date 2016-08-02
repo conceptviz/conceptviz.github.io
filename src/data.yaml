@@ -683,9 +683,9 @@ resources:
   tags: [math, science, society, art, meta, book]
   stars: 1
 
-- title: Who’ll Freeze First? A Puzzle About Size and Staying Warm
+- title: Who'll Freeze First? A Puzzle About Size and Staying Warm
   authors: [Robert Krulwich, Aatish Bhatia]
-  linkUrl: http://noticing.co/
+  linkUrl: http://noticing.co/on-size-and-warmth/
   imgUrl: img/noticing.png
   imgFit: contain
   tags: [math, science.life, science.physics, interaction]
@@ -852,7 +852,7 @@ resources:
   authors: [Jack Schaedler]
   linkUrl: http://jackschaedler.github.io/handwriting-recognition/
   imgUrl: img/handwriting-recognition.png
-  imgFit: fit
+  imgFit: contain
   tags: [cs.algorithms, math.geometry, interaction]
 
 - title: Line-Intersection
@@ -889,6 +889,46 @@ resources:
   tags: [cs.programming]
   blurb: >
     <i>"Prolog is presented in a rigourous way, through 10 easily understandable figures."</i>
+
+- title: Railway oriented programming
+  authors: [Scott Wlaschin]
+  linkUrl: https://fsharpforfunandprofit.com/posts/recipe-part2/
+  imgUrl: img/railway.png
+  imgFit: contain
+  tags: [cs.programming]
+
+- title: How does 'Hamilton,' the non stop, hip-hop Broadway sensation tap rap's master rhymes to blur musical lines?
+  authors: [Joel Eastwood, Erik Hinton]
+  linkUrl: http://graphics.wsj.com/hamilton/
+  imgUrl: img/hamilton.png
+  imgFit: contain
+  tags: [art, animation]
+
+- title: Entropy Explained, With Sheep
+  authors: [Aatish Bhatia]
+  linkUrl: https://aatishb.github.io/entropy/
+  imgUrl: img/entropy-explained-with-sheep.png
+  imgFit: contain
+  tags: [science.physics, animation, interaction]
+
+- title: Eigenstuff
+  authors: [Caroline Bowen]
+  linkUrl: http://eigenstuff.com/
+  imgUrl: img/eigenstuff.png
+  imgFit: cover
+  tags: [math.geometry, math.prob+stats, math.linearAlgebra, art, physical]
+  blurb: >
+    <i>"I am a former-art-major-turned-math-and-physics-major from the University of Tennessee interested in creating novel math and physics visual aids."</i>
+
+- title: PhET Interactive Simulations
+  authors: [PhET team]
+  linkUrl: https://phet.colorado.edu/
+  imgUrl: img/phet.png
+  imgFit: cover
+  tags: [science.physics, science.life, math.discrete, math.geometry, math.linearAlgebra, math.prob+stats, interaction, animation]
+  stars: 1
+  blurb: >
+    <i>"free interactive math and science simulations&hellip; based on extensive education research"</i>
 
 tagGroups:
   - name: topic
