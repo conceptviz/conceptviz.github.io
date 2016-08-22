@@ -930,6 +930,16 @@ resources:
   blurb: >
     <i>"free interactive math and science simulations&hellip; based on extensive education research"</i>
 
+- title: "Split Packing: An Algorithm for Packing Circles with up to Critical Density"
+  authors: [Sebastian Morr]
+  linkUrl: https://morr.cc/split-packing/
+  imgUrl: img/split-packing.png
+  imgFit: cover
+  tags: [cs.algorithms, math.geometry, story, interaction]
+  blurb: >
+    <i>"&hellip;I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions."</i>
+    & <i>"&hellip;I wrote an interactive visualization tool&hellip;, which I used as a personal thinking and explaining tool."</i>
+
 tagGroups:
   - name: topic
     color: '#339999'
