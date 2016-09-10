@@ -949,6 +949,13 @@ resources:
   blurb: >
     <i>"This page is an interactive tutorial that shows coeffects [in] a live environment where you can play with the theory using the power of new media&hellip;"</i>
 
+- title: Attention and Augmented Recurrent Neural Networks
+  authors: [Chris Olah, Shan Carter]
+  linkUrl: http://distill.pub/2016/augmented-rnns/
+  imgUrl: img/augmented-rnns.png
+  imgFit: cover
+  tags: [math.prob+stats, cs.algorithms, interaction]
+
 tagGroups:
   - name: topic
     color: '#339999'
