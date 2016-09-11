@@ -940,16 +940,6 @@ resources:
     <i>"&hellip;I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions."</i>
     & <i>"&hellip;I wrote an interactive visualization tool&hellip;, which I used as a personal thinking and explaining tool."</i>
 
-- title: "Split Packing: An Algorithm for Packing Circles with up to Critical Density"
-  authors: [Sebastian Morr]
-  linkUrl: https://morr.cc/split-packing/
-  imgUrl: img/split-packing.png
-  imgFit: cover
-  tags: [cs.algorithms, math.geometry, story, interaction]
-  blurb: >
-    <i>"&hellip;I created a nonverbal description of the central algorithm in the style of IKEA assembly instructions."</i>
-    & <i>"&hellip;I wrote an interactive visualization tool&hellip;, which I used as a personal thinking and explaining tool."</i>
-
 - title: "Coeffects: Context-aware programming languages"
   authors: [Tomas Petricek]
   linkUrl: http://tomasp.net/coeffects/
@@ -957,8 +947,7 @@ resources:
   imgFit: cover
   tags: [cs.programming, interaction]
   blurb: >
-    <i>"Coeffects are (&hellip;) a programming language abstraction for understanding how programs access the context or environment in which they execute.
-    (&hellip;) This page is an interactive tutorial that shows coeffects [in] a live environment where you can play with the theory using the power of new media (&hellip;)"</i>.
+    <i>"This page is an interactive tutorial that shows coeffects [in] a live environment where you can play with the theory using the power of new media&hellip;"</i>
 
 tagGroups:
   - name: topic
