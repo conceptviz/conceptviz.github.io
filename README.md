@@ -1,6 +1,6 @@
 # Gallery of Concept Visualization
 
-The **Gallery of Concept Visualization** features projects which use pictures to communicate complex and difficult ideas, the same way data visualizations use pictures to make sense of data.
+The **Gallery of Concept Visualization** features projects which use pictures to communicate complex and difficult ideas, the same way data visualizations use pictures to make sense of data. Visit it [here](http://conceptviz.github.io).
 
 ![Thumbnails of gallery projects](https://pbs.twimg.com/media/CQF8burUwAABKb_.jpg:medium)
 
