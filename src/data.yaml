@@ -956,6 +956,13 @@ resources:
   imgFit: cover
   tags: [math.prob+stats, cs.algorithms, interaction]
 
+- title: The Sieve of Eratosthenes
+  authors: [Jay Mahabal]
+  linkUrl: http://www.mahabal.io/eras
+  imgUrl: img/eratosthenes.png
+  imgFit: contain
+  tags: [math.discrete, cs.algorithms, animation]
+
 tagGroups:
   - name: topic
     color: '#339999'
