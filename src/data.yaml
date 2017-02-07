@@ -963,6 +963,13 @@ resources:
   imgFit: contain
   tags: [math.discrete, cs.algorithms, animation]
 
+- title: Mandelbrot
+  authors: [Sebastian Morr]
+  linkUrl: https://files.morr.cc/mandelbrot/
+  imgUrl: img/mandelbrot.png
+  imgFit: cover
+  tags: [math, math.geometry, interaction]
+
 tagGroups:
   - name: topic
     color: '#339999'
