@@ -970,6 +970,13 @@ resources:
   imgFit: cover
   tags: [math, math.geometry, interaction]
 
+- title: A Visual Bibliography of Tree Visualization
+  authors: [Hans-Jörg Schulz]
+  linkUrl: http://treevis.net
+  imgUrl: img/treevis.png
+  imgFit: cover
+  tags: [meta]
+
 tagGroups:
   - name: topic
     color: '#339999'
