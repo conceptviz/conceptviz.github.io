@@ -977,6 +977,15 @@ resources:
   imgFit: cover
   tags: [meta]
 
+- title: Illustrated Algorithms
+  authors: [Ovidiu Cherecheș]
+  linkUrl: https://illustrated-algorithms.now.sh/
+  imgUrl: img/illustrated-algorithms.png
+  imgFit: cover
+  tags: [cs.algorithms, interaction]
+  blurb: >
+    <i>"&hellip; this project aims to make common algorithms easier to grasp through interactive visualizations of their execution."</i>
+
 tagGroups:
   - name: topic
     color: '#339999'
