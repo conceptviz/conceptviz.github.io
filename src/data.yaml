@@ -982,9 +982,16 @@ resources:
   linkUrl: https://illustrated-algorithms.now.sh/
   imgUrl: img/illustrated-algorithms.png
   imgFit: cover
-  tags: [cs.algorithms, interaction]
+  tags: [cs.algorithms, animation]
   blurb: >
     <i>"&hellip; this project aims to make common algorithms easier to grasp through interactive visualizations of their execution."</i>
+
+- title: Meandering Triangles
+  authors: [Bruce Hill]
+  linkUrl: http://blog.bruce-hill.com/meandering-triangles/
+  imgUrl: img/meandering-triangles.png
+  imgFit: cover
+  tags: [cs.algorithms, math.geometry, animation]
 
 tagGroups:
   - name: topic
